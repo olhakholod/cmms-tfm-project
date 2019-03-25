@@ -1,0 +1,56 @@
+Name: T0951
+
+Amino Acids:
+GPLGSMSSIGLAHNVTILGSGETTVVLGHGYGTDQSVWKLLVPYLVDDYKVLLYDHMGAGTTNPDYFDFDRYSSLEGYSYDLIAILEEFQVSKCIYVGHSMSSMAAAVASIFRPDLFHKLVMISPTPRLINTEEYYGGFEQKVMDETLRSLDENFKSLSLGTAPLLLACDLESAAMQEYCRTLFNMRPDIACCITRMICGLDLRPYLGHVTVPCHIIQSSNDIMVPVAVGEYLRKNLGGPSVVEVMPTEGHLPHLSMPEVTIPVVLRHIRQDITDH
+
+Predicted Secondary Structure (3 Class):
+CCCCCCCHHHHHCCCEEEECCCCEEEEECCCCCCHHHHCCCHHHCCCCCEEEEECCCCCCCCCHHHCCCCHHHCCHHHHHHHHHHHHHCCCCCEEEEEECHHHHHHHHHHHHCHHHEEEEEEECCCCCCECECCECCCECHHHHHHHHHHHHHCHHHHHHHHHHHHHCCCCCCHHHHHHHHHHHHCCHHHHHHHHHHHHCCCCHHHHHHCCCCEEEEEEECCCCCCHHHHHHHHHHCCCCEEEEEEEEECCCHHHHCHHHHHHHHHHHHHCCCCCC
+
+Predicted Secondary Structure (8 Class):
+CTTCCCCHHHHHTTCEEEECSSSEEEEECCTTCCGGGGTTTGGGTTTTSEEEEECCTTSTTSCGGGCCTTGGGSHHHHHHHHHHHHHHTTCCCEEEEEETHHHHHHHHHHHHCGGGEEEEEEESCCSCCBCBTTBCCSBCHHHHHHHHHHHHHCHHHHHHHHHHHHHCSCTTSHHHHHHHHHHHHSCHHHHHHHHHHHHTCCCGGGGGGCCSCEEEEEEEECTTSCHHHHHHHHHHCSSCEEEEEEEEESSCHHHHCHHHHHHHHHHHHHSCCCCC
+
+Predicted Relative Solvent Accessiblity (at 25% exposed threshold):
+ee--eeee--e--e-eeeeeeee------------e--ee--ee-eee-----------ee-eeee-eeee-ee-e---e---e--eeee-ee-----------------ee-ee--e-------------eee-e---eeee-eee-ee-eee-eee-eee--e--e-eee-e--e---e--ee-eee------e---e-e--ee-ee-e-e------ee-e---ee--e--eee-e-e---ee-e-e-------e-ee--e---e--eeeeeee
+
+ABTMpro Prediction:
+Non Transmembrane protein
+
+Predicted Probabilities:
+Non Transmembrane protein 0.984698
+Alpha Helical Transmembrane protein 0.0152145
+Beta Barrel Transembrane protein 8.76422e-05
+
+Predicted Contact Number:
+--------------------------++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++++++++++++++++++++++++++-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-+-------
+
+Predicted Disordered Residues:
+DDDOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOODDD
+
+Predicted Disorder Probability:
+0.82 0.75 0.59 0.32 0.17 0.10 0.08 0.07 0.06 0.06 0.04 0.03 0.02 0.02 0.02 0.03 0.03 0.03 0.04 0.04 0.04 0.03 0.02 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.02 0.03 0.05 0.06 0.08 0.08 0.09 0.09 0.11 0.11 0.11 0.10 0.11 0.10 0.08 0.06 0.05 0.04 0.03 0.03 0.02 0.02 0.02 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.02 0.02 0.02 0.02 0.02 0.02 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.02 0.02 0.03 0.04 0.05 0.05 0.06 0.06 0.07 0.08 0.09 0.07 0.07 0.06 0.06 0.05 0.05 0.04 0.04 0.03 0.03 0.02 0.02 0.02 0.02 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.02 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.02 0.02 0.02 0.03 0.04 0.04 0.04 0.04 0.04 0.04 0.03 0.03 0.03 0.02 0.02 0.02 0.02 0.02 0.02 0.02 0.02 0.02 0.02 0.02 0.02 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 
+ 0.01 0.0
+ 1 0.01 0.01 0.01 0.01 0.01 0.02 0.02 0.02 0.02 0.02 0.02 0.02 0.01 0.01 0.01 0.01 0.01 0.01 0.02 0.02 0.03 0.03 0.02 0.02 0.02 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.02 0.02 0.03 0.03 0.03 0.03 0.02 0.02 0.01 0.01 0.01 0.01 0.01 0.02 0.02 0.03 0.03 0.03 0.02 0.02 0.02 0.02 0.02 0.02 0.02 0.02 0.02 0.01 0.01 0.02 0.02 0.02 0.03 0.05 0.05 0.05 0.10 0.14 0.20 0.29 0.57 0.61 0.67 
+
+Predicted Domains:
+Domain 1: 1 - 276
+
+Predicted Disulfide Bonds:
+Classification Results using Support Vector Machine:
+Classification: The sequence DOES NOT HAVE disulfide bonds.
+Note: If classification results are incorrect, you can still use the following prediction for the locations of disulfide bonds
+
+Total number of cysteines: 7
+Predicted number of bonds: 2
+
+Cysteines at the following positions are predicted to form the disulfide bond:
+169,192,199,214
+
+Predicted disulfide bonds(cysteine pairs) ordered by probability in descending order:
+Bond_Index	Cys1_Position	Cys2_Position
+1		199		214
+2		169		192
+
+
+If you requested a SVM contact map or tertiary structure prediction, it will arrive in a separate email
+
+For an explanation of the output format, please see http://scratch.proteomics.ics.uci.edu/explanation.html
