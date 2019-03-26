@@ -1,0 +1,71 @@
+Name: T0953s2
+
+Amino Acids:
+MAVQGPWVGSSYVAETGQNWASLAANELRVTERPFWISSFIGRSKEEIWEWTGENHSFNKDWLIGELRNRGGTPVVINIRAHQVSYTPGAPLFEFPGDLPNAYITLNIYADIYGRGGTGGVAYLGGNPGGDCIHNWIGNRLRINNQGWICGGGGGGGGFRVGHTEAGGGGGRPLGAGGVSSLNLNGDNATLGAPGRGYQLGNDYAGNGGDVGNPGSASSAEMGGGAAGRAVVGTSPQWINVGNIAGSWL
+
+Predicted Secondary Structure (3 Class):
+CCCCCCCHHHHHHHHHCCCEHHHHHHHCCCCCCCEEHHHHCCCCCCEEEEECCCEEEECHHHHHHHHHHCCCCCEEEEECCCEEECCCCCCCEEECCCCCCCCEEEEECCEEECCCCCCCECCCCCCCCCCCEEECCHHHEEEEECCEEECCCCCCCCEEECCEEEECCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCEECCEECCCCCCCCCCCCCCCCCCCCCCCCEEEEECCCEEEECCEEECCCC
+
+Predicted Secondary Structure (8 Class):
+CCCCSSCHHHHHHHHHSCSBHHHHHHHTTCCCSSEEGGGGTTCCCCEEEEECSCEEEECHHHHHHHHHHTTTCCEEEEECSCEEESCTTSCSEEECTTCCCSCEEEEECSEEECCCCCCCBTTCCCCCCCCSEEECSGGGEEEEESSEEECCCCCCCCEEETTEEEBCCCCTTTCCCCCCTTSCCCCCCCSSSCCCCCEETTEECCCCCCTTSCTCCCCCCCTCCCTTEEEEESCCEEEECCEEESCCC
+
+Predicted Relative Solvent Accessiblity (at 25% exposed threshold):
+ee-eeee--e---ee-eeee--e--ee-e-eeee-e-ee-eee-ee-e-e-eeeeee-e-ee--ee-eeeee-------e-e---eeee-------ee-e-e------e-e------e----eee-ee-------e--ee-----e-e-----------eeeee-----------e--e-eee-e-ee-e-eee-e-eeeeeee--e--e--ee------e-e----------e--e-ee------eee
+
+Predicted Relative Solvent Accessiblity (20 Class):
+ 0% ee-eeee--ee-eeeeeeee-ee--ee-eeeeeeee-ee-eeeeeeeeeeeeeeeeeeeeee-eee-eeeeee--e-e-eeee--eeeeee--e-eeeee-ee-e-e-eee-e-e--eeeeeeeeeeeeee--e-eeeee-e-eeeee-e--------eeeeeeee-----e-e-eeeeeeeeeeeeeeeeeeeeeeeeeeeee--eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+ 5% ee-eeee--ee-eee-eeee-ee--ee-e-eeee-e-ee-eeeeeeeeeeeeeeeee-eeee-eee-eeeeee--e-e-eee---eeeeee--e-eee-e-ee---e-eee---e--e--eeeeeeeee-e--e-eeeee-e-e-eee-----------eeeeee------e-e-ee-e-eeeeeeeeeeeeee-e-eeeeeee--eeeeeeeeeeeeeeeeeeee--e--eeeeeeeeee-e-eeeee
+10% ee-eeee--ee-eee-eeee-ee--ee-e-eeee-e-ee-eee-eeeeeeeeeeeee-eeee--ee-eeeee-------eee---eeee----e-eee-e-ee---e-e-e---e--e--e-eeeeee-----e-e-eee-e-e-eee-----------eeeeee------e-e-e--e-eeeee-ee-eeeee-e-eeeeeee--e--e-eee-ee-eeeee--e--e--eee-ee-eee-e-e-eee
+15% ee-eeee--ee-eee-eeee-ee--ee-e-eeee-e-ee-eee-eeeeee-eeeeee-e-ee--ee-eeeee-------e-e---eeee----e--ee-e-ee-----e-e---e--e--e-eee-ee-------e-eee-e---e-e-----------eeeeee------e-e-e--e-eeeee-ee-eeeee-e-eeeeeee--e--e-eee-e--eee-e--e--e--eee-ee-eee---e-eee
+20% ee-eeee--e---ee-eeee-ee--ee-e-eeee-e-ee-eee-ee-e-e-eeeeee-e-ee--ee-eeeee-------e-e---eeee----e--ee-e-e------e-e------e--e-eee-ee-------e--ee-e---e-e-----------eeeeee--------e-e--e-eeeee-ee-e-eee-e-eeeeeee--e--e--ee-e---ee-e--------e-e-ee-ee------eee
+25% ee-eeee--e---ee-eeee--e--ee-e-eeee-e-ee-eee-ee-e-e-eeeeee-e-ee--ee-eeeee-------e-e---eeee-------ee-e-e------e-e------e----eee-ee-------e--ee-----e-e-----------eeeee-----------e--e-eee-e-ee-e-eee-e-eeeeeee--e--e--ee------e-e--------e-e--e-ee------eee
+30% ee-eeee--e---e--eee---e--ee---eeee-e-ee-eee--e-e-e-eeee-e-e-ee--ee-eee-e-------e-----e--e-------ee-e-e------e--------e----eee-ee-------e--e------e-e-----------eeeee-----------e--e-eee---ee-e-eee-e--eeeeee--e--e--ee------e-e----------e--e-ee-------ee
+35% ee-eee---e---e--e-e---e--e----eeee---ee-ee-----e-e-eeee-e-e-ee---e-eee-e-------e-----e--e-------ee-e-e------e-------------eee-ee-------e--e------e-e------------eeee--------------e-eee---ee-e-ee--e--eeeeee--e--e--ee-------------------e----ee-------ee
+40% ee-eee-------e--e--------e----eeee------ee-----e-e-eee--e---ee------ee-e-------e-----e--e-------ee------------------------ee--ee-------e--e------e--------------eeee--------------e-eee---ee-e-e---e--eeeeee-----e--ee-------------------e-----e-------ee
+45% ee-e---------e--e--------e----ee-e-------e-----e-e-eee--e---ee------e--e----------------e-------ee------------------------ee--ee----------e------e--------------eee---------------e-eee---ee-e-e---e---eeee------e--ee-------------------e--------------e
+50% e--e---------e--e--------e----ee---------e-----e-e-eee--e---e-------e--e----------------e-------ee------------------------ee---e----------e------e----------------e---------------e-eee---ee-e-e---e---eeee---------e-----------------------------------e
+55% e--e---------e--e-------------ee---------e---------eee--e-----------e-------------------e--------e-------------------------e--------------e-----------------------e---------------e-e-e---ee-------e---eee----------------------------------------------e
+60% ---e---------e--e-------------ee---------e---------e----e-----------e-------------------e--------e-------------------------e--------------e-----------------------e-----------------e-e----e------------ee----------------------------------------------e
+65% ---e---------e----------------e----------e---------e------------------------------------e--------e----------------------------------------e-----------------------e-----------------e-e----e------------ee-----------------------------------------------
+70% ---e---------e----------------e---------------------------------------------------------e-------------------------------------------------e-----------------------e-----------------e-e-----------------ee-----------------------------------------------
+75% ----------------------------------------------------------------------------------------e-------------------------------------------------------------------------e-------------------------------------ee-----------------------------------------------
+80% ----------------------------------------------------------------------------------------e-------------------------------------------------------------------------e-------------------------------------ee-----------------------------------------------
+85% ------------------------------------------------------------------------------------------------------------------------------------------------------------------e-------------------------------------ee-----------------------------------------------
+90% ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------e-----------------------------------------------
+95% ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+100% ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ABTMpro Prediction:
+Non Transmembrane protein
+
+Predicted Probabilities:
+Non Transmembrane protein 0.859613
+Alpha Helical Transmembrane protein 0.03268
+Beta Barrel Transembrane protein 0.107707
+
+Predicted Contact Number:
+---------------+-----------++++++++-+++++--+--+--++++++++-+-+-+++------+-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++--+-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++++++++++++++++++++-----
+
+Predicted Domains:
+Domain 1: 1 - 249
+
+Predicted Disulfide Bonds:
+Classification Results using Support Vector Machine:
+Classification: The sequence DOES NOT HAVE disulfide bonds.
+Note: If classification results are incorrect, you can still use the following prediction for the locations of disulfide bonds
+
+Total number of cysteines: 2
+Predicted number of bonds: 1
+
+Cysteines at the following positions are predicted to form the disulfide bond:
+132,150
+
+Predicted disulfide bonds(cysteine pairs) ordered by probability in descending order:
+Bond_Index	Cys1_Position	Cys2_Position
+1		132		150
+
+
+If you requested a SVM contact map or tertiary structure prediction, it will arrive in a separate email
+
+For an explanation of the output format, please see http://scratch.proteomics.ics.uci.edu/explanation.html
+
