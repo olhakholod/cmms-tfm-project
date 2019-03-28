@@ -1,0 +1,1591 @@
+PSIBLAST 2.2.25+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: nr90
+           9,741,704 sequences; 3,383,841,944 total letters
+
+Results from round 1
+
+
+Query= T0953s2
+
+Length=249
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  gi|20140796|sp|Q9G0B4.1|VG38_BPAR1 RecName: Full=Receptor-recog...   120    2e-25
+  gi|345450671|gb|AEN93874.1| long tail fiber assembly catalyst [...   118    4e-25
+  gi|161622646|ref|YP_001595373.1| gp38 distal long tail fiber as...   118    5e-25
+  gi|32453736|ref|NP_861945.1| gp38 distal long tail fiber assemb...   114    9e-24
+  gi|138023|sp|P07875.1|VG38_BPT2 RecName: Full=Receptor-recogniz...   111    6e-23
+  gi|299779192|ref|YP_003734386.1| 38 gene product [Enterobacteri...   108    4e-22
+  gi|3335633|gb|AAC27318.1| tail fiber adhesin gp38 [Enterobacter...   108    4e-22
+  gi|116326466|ref|YP_803186.1| gp38 [Enterobacteria phage RB32] ...   105    6e-21
+  gi|3676528|gb|AAC62008.1| tail fiber adhesin gp38 [Enterobacter...   101    5e-20
+  gi|138022|sp|P08233.1|VG38_BPOX2 RecName: Full=Receptor-recogni...   100    2e-19
+  gi|339791446|gb|AEK12503.1| distal long tail fiber assembly cat...   100    2e-19
+  gi|3676461|gb|AAC61977.1| tail fiber adhesin [Enterobacteria ph...  99.8    2e-19
+  gi|356689998|gb|AET36511.1| tail fiber adhesin [Enterobacteria ...  98.6    5e-19
+  gi|33620655|ref|NP_891650.1| distal long tail fiber assembly ca...  98.6    5e-19
+  gi|311993250|ref|YP_004010116.1| gp38 distal long tail fiber as...  94.0    1e-17
+  gi|138020|sp|P07876.1|VG38_BPK3 RecName: Full=Receptor-recogniz...  91.7    6e-17
+  gi|330858766|ref|YP_004415141.1| putative receptor-recognizing ...  91.7    6e-17
+  gi|323934265|gb|EGB30689.1| phage tail fibre adhesin Gp38 [Esch...  87.4    1e-15
+  gi|294661658|ref|YP_003580111.1| gp38 distal long tail fiber as...  49.3    4e-04
+
+
+> gi|20140796|sp|Q9G0B4.1|VG38_BPAR1 RecName: Full=Receptor-recognizing 
+protein; AltName: Full=Protein Gp38 gi|11095167|gb|AAG29755.1|AF208841_3 
+gp38 [Enterobacteria phage AR1]
+Length=259
+
+ Score =  120 bits (300),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 71/144 (50%), Positives = 83/144 (58%), Gaps = 4/144 (2%)
+
+Query  1    MAVQGPWVGSSYVAETGQNWASLAANELRVTERPFWISSFIGRSKEEIWEWTGENHSFNK  60
+            MAV GPWVGSS V  TGQNW   AA  LR+   PFW+S+ IGRS E I    G +H+FN 
+Sbjct  1    MAVTGPWVGSSAVVNTGQNWMVGAAQRLRMGA-PFWMSNMIGRSVEVI-HTLGADHNFNG  58
+
+Query  61   DWLIGELRNRGGTPVVINIRAHQVSYTPGAPLFEFPGDLPNAYITLNIY-ADIYGRGGTG  119
+             W        G  P+V NI    VSY+   PLF   GD PN Y+ LNI+   +YGRGG G
+Sbjct  59   QWFRDRCFEAGSAPIVFNITGDLVSYSRDVPLFFMYGDTPNEYVQLNIHGVTMYGRGGNG  118
+
+Query  120  -GVAYLGGNPGGDCIHNWIGNRLR  142
+                 +G + GG CI N IG RLR
+Sbjct  119  WAACAIGASDGGVCIQNDIGGRLR  142
+
+
+> gi|345450671|gb|AEN93874.1| long tail fiber assembly catalyst 
+[Enterobacteria phage Bp7]
+Length=263
+
+ Score =  118 bits (296),  Expect = 4e-25, Method: Compositional matrix adjust.
+ Identities = 75/154 (49%), Positives = 90/154 (59%), Gaps = 6/154 (3%)
+
+Query  1    MAVQGP--WVGSSYVAETGQNWASLAANELRVTERPFWISSFIGRSKEEIWEWTGENHSF  58
+            MAV G   W+G+S VAETGQ W + A+ ELR+   P W+S F GRS+E I    G +H+F
+Sbjct  1    MAVVGIPGWIGTSAVAETGQRWMTAASRELRLGN-PSWMSQFAGRSREII-HTLGADHNF  58
+
+Query  59   NKDWLIGELRNRGGTPVVINIRAHQVSYTPGAPLFEFPGDLPNAYITLNIYADIY--GRG  116
+            N  W        GG P+V NI  + VSYT   PLF   GD PN Y+TLNI+  ++  GRG
+Sbjct  59   NGQWFRDRCFEAGGAPIVFNITGNLVSYTKDVPLFFMYGDTPNEYVTLNIHGGVHMWGRG  118
+
+Query  117  GTGGVAYLGGNPGGDCIHNWIGNRLRINNQGWIC  150
+            G G V    G  GGD I N IG RLRI N G I 
+Sbjct  119  GNGTVNGNPGTNGGDVIQNDIGGRLRIWNYGVIA  152
+
+
+> gi|161622646|ref|YP_001595373.1| gp38 distal long tail fiber 
+assembly catalyst [Enterobacteria phage JS98] gi|52139852|gb|AAU29224.1| 
+gp38 distal long tail fiber assembly catalyst [Enterobacteria 
+phage JS98]
+Length=262
+
+ Score =  118 bits (296),  Expect = 5e-25, Method: Compositional matrix adjust.
+ Identities = 74/154 (49%), Positives = 90/154 (59%), Gaps = 7/154 (4%)
+
+Query  1    MAVQGP--WVGSSYVAETGQNWASLAANELRVTERPFWISSFIGRSKEEIWEWTGENHSF  58
+            MAV G   W+G+S VAETGQ W + A+ ELR+   P W+S F GRS+E I    G +H+F
+Sbjct  1    MAVVGIPGWIGTSAVAETGQRWMTAASRELRLGN-PSWMSQFAGRSREII-HTLGADHNF  58
+
+Query  59   NKDWLIGELRNRGGTPVVINIRAHQVSYTPGAPLFEFPGDLPNAYITLNIYADIY--GRG  116
+            N  W        G  P+V NI    VSYT   PLF   GD PN Y+TLNI+  ++  GRG
+Sbjct  59   NGQWFRDRCFEAGAAPIVFNITGDLVSYTKDVPLFFMYGDTPNEYVTLNIHGGVHMWGRG  118
+
+Query  117  GTGGV-AYLGGNPGGDCIHNWIGNRLRINNQGWI  149
+            G GG   ++ G  GGD I N IG RLRI N G I
+Sbjct  119  GNGGTRVWIAGTNGGDVIQNDIGGRLRIWNYGVI  152
+
+
+> gi|32453736|ref|NP_861945.1| gp38 distal long tail fiber assembly 
+catalyst [Enterobacteria phage RB69] gi|32350555|gb|AAP76154.1| 
+gp38 distal long tail fiber assembly catalyst [Enterobacteria 
+phage RB69]
+Length=257
+
+ Score =  114 bits (285),  Expect = 9e-24, Method: Compositional matrix adjust.
+ Identities = 72/152 (48%), Positives = 86/152 (57%), Gaps = 4/152 (2%)
+
+Query  1    MAVQGPWVGSSYVAETGQNWASLAANELRVTERPFWISSFIGRSKEEIWEWTGENHSFNK  60
+            MAV+GPWVG S   +TG  W   AA  LR+   PFW+S+ IGRS E I    G +H+FN 
+Sbjct  1    MAVEGPWVGWSARVQTGDPWMGGAAQRLRMGI-PFWMSNMIGRSVEVI-HTLGADHNFNG  58
+
+Query  61   DWLIGELRNRGGTPVVINIRAHQVSYTPGAPLFEFPGDLPNAYITLNIYADIY--GRGGT  118
+             W        G  P+V NI  + VSY+   PLF   GD PN Y+TLNI+  ++  GRGG 
+Sbjct  59   QWFRDRCFEAGSAPIVFNITGNLVSYSKDVPLFFMYGDTPNEYVTLNIHGGVHMWGRGGN  118
+
+Query  119  GGVAYLGGNPGGDCIHNWIGNRLRINNQGWIC  150
+            G V    G  GGD I N IG RLRI N G I 
+Sbjct  119  GTVNGNPGTNGGDVIQNDIGGRLRIWNYGVIA  150
+
+
+> gi|138023|sp|P07875.1|VG38_BPT2 RecName: Full=Receptor-recognizing 
+protein; AltName: Full=Protein Gp38 gi|15198|emb|CAA28935.1| 
+unnamed protein product [Enterobacteria phage T2]
+Length=262
+
+ Score =  111 bits (278),  Expect = 6e-23, Method: Compositional matrix adjust.
+ Identities = 68/149 (46%), Positives = 86/149 (58%), Gaps = 6/149 (4%)
+
+Query  1    MAVQGP--WVGSSYVAETGQNWASLAANELRVTERPFWISSFIGRSKEEIWEWTGENHSF  58
+            MA+ G   W+G S V ETGQ W   A   + V+  P W+SS  G+SKE I+   G NH++
+Sbjct  1    MAIVGVPGWIGESAVNETGQRWMDAAMRAVHVSV-PGWMSSMAGQSKE-IYLSIGANHNY  58
+
+Query  59   NKDWLIGELRNRGGTPVVINIRAHQVSYTPGAPLFEFPGDLPNAYITLNIYA--DIYGRG  116
+            +++ LI  +R +GG PVVI I    VS + G    EFP DLPNAYI L I +   +YGRG
+Sbjct  59   DRNSLINWMRAQGGAPVVITITGDLVSNSTGNACLEFPSDLPNAYIQLIINSGVTVYGRG  118
+
+Query  117  GTGGVAYLGGNPGGDCIHNWIGNRLRINN  145
+            G G      G  GG  IHN  G +LRI N
+Sbjct  119  GNGSTNSSAGGNGGTAIHNAAGTKLRIRN  147
+
+
+> gi|299779192|ref|YP_003734386.1| 38 gene product [Enterobacteria 
+phage IME08] gi|298105921|gb|ADI55565.1| gp38 distal long 
+tail fiber adhesin [Enterobacteria phage IME08]
+Length=263
+
+ Score =  108 bits (271),  Expect = 4e-22, Method: Compositional matrix adjust.
+ Identities = 68/149 (46%), Positives = 85/149 (58%), Gaps = 6/149 (4%)
+
+Query  1    MAVQGP--WVGSSYVAETGQNWASLAANELRVTERPFWISSFIGRSKEEIWEWTGENHSF  58
+            MA+ G   WVG S V ETGQ W   A  ++RV   P W+ S   +SKE I+   G NH++
+Sbjct  2    MAIVGLPGWVGQSAVDETGQRWMDAAMRDVRVAV-PGWMGSMANQSKE-IYYSIGANHNY  59
+
+Query  59   NKDWLIGELRNRGGTPVVINIRAHQVSYTPGAPLFEFPGDLPNAYITLNIYA--DIYGRG  116
+            +K+ LI  +R +GG PVVI I  + VS + G    EFP DLPNAYI L I +   +YGRG
+Sbjct  60   DKNTLINWMRAQGGAPVVITITGNIVSNSTGNACLEFPSDLPNAYIQLTINSGVTVYGRG  119
+
+Query  117  GTGGVAYLGGNPGGDCIHNWIGNRLRINN  145
+            G G      G  GG  I N  G +LRI N
+Sbjct  120  GNGSTNGSAGGNGGVAIRNSAGTKLRIRN  148
+
+
+> gi|3335633|gb|AAC27318.1| tail fiber adhesin gp38 [Enterobacteria 
+phage RB27]
+Length=256
+
+ Score =  108 bits (270),  Expect = 4e-22, Method: Compositional matrix adjust.
+ Identities = 66/142 (47%), Positives = 78/142 (55%), Gaps = 2/142 (1%)
+
+Query  1    MAVQGPWVGSSYVAETGQNWASLAANELRVTERPFWISSFIGRSKEEIWEWTGENHSFNK  60
+            MAV GPWVGSS V  TGQNW S AA  LR+   PFW+S+ IGRS E I    G +H+FN 
+Sbjct  1    MAVTGPWVGSSAVVNTGQNWMSSAAQRLRMGT-PFWMSNMIGRSVEVI-HTLGADHNFNG  58
+
+Query  61   DWLIGELRNRGGTPVVINIRAHQVSYTPGAPLFEFPGDLPNAYITLNIYADIYGRGGTGG  120
+             W        G  P++ N     VSY+   PLF   GD PN Y+ LNI+       G  G
+Sbjct  59   QWFRDRCFEAGSAPMMFNTTGDLVSYSKDVPLFFMYGDTPNEYVQLNIHGVTMYGRGGNG  118
+
+Query  121  VAYLGGNPGGDCIHNWIGNRLR  142
+             +   G+ GG CI N IG RLR
+Sbjct  119  GSNSPGSAGGHCIQNDIGGRLR  140
+
+
+> gi|116326466|ref|YP_803186.1| gp38 [Enterobacteria phage RB32] 
+gi|115344059|gb|ABI95068.1| gp38 [Enterobacteria phage RB32] 
+gi|356690010|gb|AET36517.1| tail fiber adhesin [Enterobacteria 
+phage RB33]
+Length=266
+
+ Score =  105 bits (261),  Expect = 6e-21, Method: Compositional matrix adjust.
+ Identities = 72/153 (48%), Positives = 86/153 (57%), Gaps = 10/153 (6%)
+
+Query  1    MAVQGP--WVGSSYVAETGQNWASLAANELRVTERPFWISSFIGRSKEEIWEWTGENHSF  58
+            MAV G   W+GSS V ETGQ W S AA +LR+   P W+S F GRS+E I    G +H+F
+Sbjct  1    MAVVGVPGWIGSSAVNETGQRWMSQAAGQLRLGV-PCWMSQFAGRSREII-HTLGADHNF  58
+
+Query  59   NKDWLIGELRNRGGTPVVINIRAHQVSYTPGAPLFEFPGDLPNAYITLNIYADIY--GRG  116
+            N  W        G  P+V NI  + VSY+   PLF   GD PN Y+ LNI   ++  GRG
+Sbjct  59   NGQWFRDRCFEAGSAPIVFNITGNLVSYSRDVPLFFMYGDTPNEYVQLNIGGGVHMWGRG  118
+
+Query  117  GTGGVAY----LGGNPGGDCIHNWIGNRLRINN  145
+            G GG  +      G  GG CI N IG RLRINN
+Sbjct  119  GQGGWTHSGGDGNGQQGGHCIQNDIGGRLRINN  151
+
+
+> gi|3676528|gb|AAC62008.1| tail fiber adhesin gp38 [Enterobacteria 
+phage Ac3]
+Length=258
+
+ Score =  101 bits (252),  Expect = 5e-20, Method: Compositional matrix adjust.
+ Identities = 112/257 (44%), Positives = 135/257 (53%), Gaps = 13/257 (5%)
+
+Query  1    MAVQGPWVGSSYVAETGQNWASLAANELRVTERPFWISSFIGRSKEEIWEWTGENHSFNK  60
+            MAV+GPWVG S   +TG  W   AA  LR+   PFW+S+ IGRS E I    G +H+FN 
+Sbjct  1    MAVEGPWVGWSARVQTGDPWMGGAAQRLRMG-IPFWMSNMIGRSVE-IIHTLGADHNFNG  58
+
+Query  61   DWLIGELRNRGGTPVVINIRAHQVSYTPGAPLFEFPGDLPNAYITLNIYADIYGRGGTGG  120
+             W        G TP+V NI    VSY+   PLF   GD PN Y+ LNI+       G  G
+Sbjct  59   QWFRDRCFEAGSTPIVFNITGDLVSYSKDVPLFFMYGDTPNEYVQLNIHGVAMYGRGGNG  118
+
+Query  121  VAYLGGNPGGDCIHNWIGNRLRINNQGWICGGGGGGGGFRVGHT--EAGGGGGRPLGAGG  178
+             +   G+ GG CI N IG RLRINN G I GGGGGGGG   G      GGG     G   
+Sbjct  119  GSNSPGSAGGHCIQNDIGGRLRINNGGAIAGGGGGGGGGNRGRLVFGGGGGRPFGSGGSS  178
+
+Query  179  VSSLNLNGDNATLGAPGRGY----QLGNDYAGNGGDVGNP-----GSASSAEMGGGAAGR  229
+            +S ++      T+ APG G      L     G+GG+VG+         +  E  GGAAG 
+Sbjct  179  LSHMSAGATAGTIYAPGAGSVGEGSLSAYTGGSGGEVGSAGGRCNTHGTGTEYDGGAAGY  238
+
+Query  230  AVVGTSPQWINVGNIAG  246
+            AV+G+SP WINVG I G
+Sbjct  239  AVIGSSPTWINVGAIYG  255
+
+
+> gi|138022|sp|P08233.1|VG38_BPOX2 RecName: Full=Receptor-recognizing 
+protein; AltName: Full=Protein Gp38 gi|15126|emb|CAA29158.1| 
+unnamed protein product [Enterobacteria phage Ox2]
+Length=266
+
+ Score =  100 bits (249),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 70/153 (46%), Positives = 84/153 (55%), Gaps = 10/153 (6%)
+
+Query  1    MAVQGP--WVGSSYVAETGQNWASLAANELRVTERPFWISSFIGRSKEEIWEWTGENHSF  58
+            MAV G   W+GSS V ETGQ W S AA +LR+   P W+S F GRS+E I    G +H+F
+Sbjct  1    MAVVGVPGWIGSSSVNETGQRWMSQAAGQLRLGV-PCWMSQFAGRSREII-HTLGADHNF  58
+
+Query  59   NKDWLIGELRNRGGTPVVINIRAHQVSYTPGAPLFEFPGDLPNAYITLNIYADIY--GRG  116
+            N  W        G  P+V NI    VSY+   PLF   GD PN Y+ LNI+  ++  GRG
+Sbjct  59   NGQWFRDRCFEAGSAPIVFNITGDLVSYSKDVPLFFMYGDTPNEYVVLNIHGGVHMWGRG  118
+
+Query  117  GTGGVAY----LGGNPGGDCIHNWIGNRLRINN  145
+            G GG  +      G  GG  I N IG RLRI N
+Sbjct  119  GNGGYTHSGGDGNGTQGGHVIQNDIGGRLRIWN  151
+
+
+> gi|339791446|gb|AEK12503.1| distal long tail fiber assembly catalyst 
+[Enterobacteria phage ime09]
+Length=264
+
+ Score =  100 bits (248),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 69/150 (46%), Positives = 90/150 (60%), Gaps = 7/150 (4%)
+
+Query  1    MAVQGP--WVGSSYVAETGQNWASLAANELRVTERPFWISSFIGRSKEEIWEWTGENHSF  58
+            MA+ G   W+G S V ETGQ W   A   +RV+  P W+SS  G+SKE ++   G ++S+
+Sbjct  1    MAIVGVPGWIGESAVNETGQRWMDAAMRAVRVSV-PGWMSSMAGQSKE-VYYSIGASNSY  58
+
+Query  59   NKDWLIGELRNRGGTPVVINIRAHQVSYTPGAPLFEFPGDLPNAYITLNIY--ADIYGRG  116
+            NKD LI  L+++G TPVV+ I  + VS + G P  +FP  L NAY+TL I     +YGRG
+Sbjct  59   NKDTLINYLKSQGSTPVVVTITGNLVSSSAGQPCLDFPSSLTNAYVTLIINGGVTVYGRG  118
+
+Query  117  GTGGVAY-LGGNPGGDCIHNWIGNRLRINN  145
+            G G  A    G  GG  I+N IG RLRI N
+Sbjct  119  GRGAQAGNQAGEAGGTAINNGIGTRLRITN  148
+
+
+> gi|3676461|gb|AAC61977.1| tail fiber adhesin [Enterobacteria 
+phage T6]
+Length=261
+
+ Score = 99.8 bits (247),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 66/145 (46%), Positives = 80/145 (56%), Gaps = 5/145 (3%)
+
+Query  1    MAVQGP--WVGSSYVAETGQNWASLAANELRVTERPFWISSFIGRSKEEIWEWTGENHSF  58
+            MAV G   W+GSS V ETGQ W S AA +LR+   P W+S F GRS+E I      NH+F
+Sbjct  1    MAVVGVPGWIGSSSVNETGQRWMSQAAGQLRLGV-PCWMSQFAGRSRE-IIHTVSANHNF  58
+
+Query  59   NKDWLIGELRNRGGTPVVINIRAHQVSYTPGAPLFEFPGDLPNAYITLNIYADIYG-RGG  117
+            N  W        GG P+V NI    VSY+   PLF   GD PN Y+ LNI+  ++    G
+Sbjct  59   NGQWFRDRCFEAGGAPIVFNIVGDIVSYSKDVPLFFMYGDTPNEYVVLNIHGGVHMWGRG  118
+
+Query  118  TGGVAYLGGNPGGDCIHNWIGNRLR  142
+              G +   G+ GG CI N IG RLR
+Sbjct  119  GNGGSNSPGSAGGHCIQNDIGGRLR  143
+
+
+> gi|356689998|gb|AET36511.1| tail fiber adhesin [Enterobacteria 
+phage Mi]
+Length=263
+
+ Score = 98.6 bits (244),  Expect = 5e-19, Method: Compositional matrix adjust.
+ Identities = 64/144 (45%), Positives = 77/144 (54%), Gaps = 4/144 (2%)
+
+Query  1    MAVQGP--WVGSSYVAETGQNWASLAANELRVTERPFWISSFIGRSKEEIWEWTGENHSF  58
+            MAV G   W+GSS   ETGQ W S AA +LR+   P W+S F GRS+E I    G +H+F
+Sbjct  1    MAVVGVPGWIGSSAANETGQRWMSQAAGQLRLGV-PCWMSQFAGRSREII-HTLGADHNF  58
+
+Query  59   NKDWLIGELRNRGGTPVVINIRAHQVSYTPGAPLFEFPGDLPNAYITLNIYADIYGRGGT  118
+            N  W        G  P+V NI    VSY+   PLF   GD PN Y+ LNI+       G 
+Sbjct  59   NGQWFRDRCFEAGSAPIVFNITGDLVSYSKDVPLFFMYGDTPNEYVQLNIHGVTMYGRGG  118
+
+Query  119  GGVAYLGGNPGGDCIHNWIGNRLR  142
+             G +   G+ GG CI N IG RLR
+Sbjct  119  NGGSNSPGSAGGHCIQNNIGGRLR  142
+
+
+> gi|33620655|ref|NP_891650.1| distal long tail fiber assembly 
+catalyst [Enterobacteria phage RB49] gi|30144321|gb|AAL15128.2| 
+distal long tail fiber assembly catalyst [Enterobacteria 
+phage RB49]
+Length=258
+
+ Score = 98.6 bits (244),  Expect = 5e-19, Method: Compositional matrix adjust.
+ Identities = 54/117 (47%), Positives = 75/117 (65%), Gaps = 4/117 (3%)
+
+Query  1    MAVQGPWVGSSYVAETGQNWASLAANELRVTERPFWISSFIGRSKEEIWEWTGENHSFNK  60
+            MA++  WVGSS V+ETGQ W S A   +R+  RP ++S+ +GRSKE I    G ++S+NK
+Sbjct  1    MAIKAGWVGSSAVSETGQRWMSAAMQAVRL-GRPAYMSAMVGRSKE-IHYSIGASNSYNK  58
+
+Query  61   DWLIGELRNRGGTPVVINIRAHQVSYTPGAPLFEFPGDLPNAYITLNIYA--DIYGR  115
+            D LI  ++ +G TPVVI I  + VS + G P  +FP  L N Y+TL I +   +YGR
+Sbjct  59   DTLINWMKAQGSTPVVITITGNIVSQSTGVPCLDFPSSLTNEYVTLIINSGVTVYGR  115
+
+
+> gi|311993250|ref|YP_004010116.1| gp38 distal long tail fiber 
+assembly catalyst [Enterobacteria phage CC31] gi|284178088|gb|ADB81754.1| 
+gp38 distal long tail fiber assembly catalyst 
+[Enterobacteria phage CC31]
+Length=261
+
+ Score = 94.0 bits (232),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 67/145 (47%), Positives = 86/145 (60%), Gaps = 4/145 (2%)
+
+Query  1    MAVQGPWVGSSYVAETGQNWASLAANELRVTERPFWISSFIGRSKEEIWEWTGENHSFNK  60
+            MA+ GP +G+S+  ETGQ   S A   +R+  RP      +G SKE  +   G N+S+NK
+Sbjct  1    MAIAGPNIGTSWFRETGQRPMSAARVAVRLPARPGGARQMVGLSKEVNYNI-GANNSYNK  59
+
+Query  61   DWLIGELRNRGGTPVVINIRAHQVSYTPGAPLFEFPGDLPNAYITLNIY--ADIYGRGGT  118
+            D LI  LR++G TPVV+ I  + VSY+ G    EFP +LPNAY+ L I     +YGRGG 
+Sbjct  60   DTLINYLRSQGSTPVVVTITGNLVSYSSGVACLEFPANLPNAYVHLIINGGVTLYGRGGN  119
+
+Query  119  GGVAYLGGNPGGDCIHNWIGNRLRI  143
+            GGV   G   GG  I+N  G RLRI
+Sbjct  120  GGVKGNGA-AGGHAINNQFGTRLRI  143
+
+
+> gi|138020|sp|P07876.1|VG38_BPK3 RecName: Full=Receptor-recognizing 
+protein; AltName: Full=Protein Gp38 gi|15113|emb|CAA29074.1| 
+unnamed protein product [Enterobacteria phage K3]
+Length=260
+
+ Score = 91.7 bits (226),  Expect = 6e-17, Method: Compositional matrix adjust.
+ Identities = 55/119 (47%), Positives = 73/119 (62%), Gaps = 6/119 (5%)
+
+Query  1    MAVQGP--WVGSSYVAETGQNWASLAANELRVTERPFWISSFIGRSKEEIWEWTGENHSF  58
+            MA+ G   W+G S V ETGQ W   A  E+RV+  P W+SS  G+SKE I    G ++S+
+Sbjct  1    MAIVGVPGWIGESAVNETGQRWMDAAMREVRVSV-PGWMSSMAGQSKE-IHYSIGASNSY  58
+
+Query  59   NKDWLIGELRNRGGTPVVINIRAHQVSYTPGAPLFEFPGDLPNAYITLNIYA--DIYGR  115
+            NKD LI  ++ +G TPVVI I  + VS + G P  +FP  L NAY+TL I +   +YGR
+Sbjct  59   NKDTLINWIKAQGSTPVVITITGNIVSQSTGVPCLDFPSSLTNAYVTLIINSGVTVYGR  117
+
+
+> gi|330858766|ref|YP_004415141.1| putative receptor-recognizing 
+protein [Shigella phage Shfl2] gi|327397700|gb|AEA73202.1| 
+putative receptor-recognizing protein [Shigella phage Shfl2]
+Length=263
+
+ Score = 91.7 bits (226),  Expect = 6e-17, Method: Compositional matrix adjust.
+ Identities = 51/115 (45%), Positives = 72/115 (63%), Gaps = 4/115 (3%)
+
+Query  1    MAVQGP--WVGSSYVAETGQNWASLAANELRVTERPFWISSFIGRSKEEIWEWTGENHSF  58
+            MA+ G   W+G S V ETGQ W   A   +RV+  P W+SS  G+SKE ++   G ++S+
+Sbjct  1    MAIVGVPGWIGESAVNETGQRWMDAAMRAVRVSV-PGWMSSMAGQSKE-VYYSVGASNSY  58
+
+Query  59   NKDWLIGELRNRGGTPVVINIRAHQVSYTPGAPLFEFPGDLPNAYITLNIYADIY  113
+            NKD LI  ++ +G TPVVI I  + VS + G P  +FP  L NAY+TLNI + ++
+Sbjct  59   NKDTLINWIKAQGSTPVVITITGNIVSQSTGVPCLDFPSSLTNAYVTLNINSGVH  113
+
+
+> gi|323934265|gb|EGB30689.1| phage tail fibre adhesin Gp38 [Escherichia 
+coli E1520]
+Length=260
+
+ Score = 87.4 bits (215),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 49/111 (45%), Positives = 67/111 (61%), Gaps = 4/111 (3%)
+
+Query  7    WVGSSYVAETGQNWASLAANELRVTERPFWISSFIGRSKEEIWEWTGENHSFNKDWLIGE  66
+            W+GSS V+ TGQ W S A   ++++     +S   GRSKE I    G NH++NKD LI  
+Sbjct  9    WIGSSAVSVTGQRWMSAARTAVQLSAAGN-MSQLAGRSKE-IHYSIGANHNYNKDTLINY  66
+
+Query  67   LRNRGGTPVVINIRAHQVSYTPGAPLFEFPGDLPNAYITLNIYA--DIYGR  115
+            L+++G TPVV+ I    VS + G P  +FP  L N+YI+L I A   +YGR
+Sbjct  67   LKSQGATPVVVTITGDLVSSSSGVPCLDFPSSLTNSYISLVINAGVTVYGR  117
+
+
+> gi|294661658|ref|YP_003580111.1| gp38 distal long tail fiber 
+assembly catalyst [Klebsiella phage KP15] gi|292660819|gb|ADE35067.1| 
+gp38 distal long tail fiber assembly catalyst [Klebsiella 
+phage KP15]
+Length=175
+
+ Score = 49.3 bits (116),  Expect = 4e-04, Method: Compositional matrix adjust.
+ Identities = 25/44 (57%), Positives = 31/44 (71%), Gaps = 1/44 (2%)
+
+Query  1   MAVQGPWVGSSYVAETGQNWASLAANELRVTERPFWISSFIGRS  44
+           MAV GPWVGSS  AETG+ W   A  +LR+   PFW+S+ IG+S
+Sbjct  1   MAVTGPWVGSSAKAETGEAWMVQAGAKLRIGT-PFWMSNMIGQS  43
+
+
+
+Lambda     K      H
+   0.317    0.139    0.462 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 242230656192
+Results from round 2
+
+
+Query= T0953s2
+
+Length=249
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  gi|345450671|gb|AEN93874.1| long tail fiber assembly catalyst [...   204    1e-50
+  gi|3676528|gb|AAC62008.1| tail fiber adhesin gp38 [Enterobacter...   199    2e-49
+  gi|3335633|gb|AAC27318.1| tail fiber adhesin gp38 [Enterobacter...   185    4e-45
+  gi|32453736|ref|NP_861945.1| gp38 distal long tail fiber assemb...   182    2e-44
+  gi|116326466|ref|YP_803186.1| gp38 [Enterobacteria phage RB32] ...   174    7e-42
+  gi|20140796|sp|Q9G0B4.1|VG38_BPAR1 RecName: Full=Receptor-recog...   173    1e-41
+  gi|3676461|gb|AAC61977.1| tail fiber adhesin [Enterobacteria ph...   172    4e-41
+  gi|161622646|ref|YP_001595373.1| gp38 distal long tail fiber as...   169    2e-40
+  gi|138022|sp|P08233.1|VG38_BPOX2 RecName: Full=Receptor-recogni...   169    3e-40
+  gi|356689998|gb|AET36511.1| tail fiber adhesin [Enterobacteria ...   164    8e-39
+  gi|138023|sp|P07875.1|VG38_BPT2 RecName: Full=Receptor-recogniz...   157    1e-36
+  gi|138020|sp|P07876.1|VG38_BPK3 RecName: Full=Receptor-recogniz...   151    5e-35
+  gi|311993250|ref|YP_004010116.1| gp38 distal long tail fiber as...   149    2e-34
+  gi|299779192|ref|YP_003734386.1| 38 gene product [Enterobacteri...   145    4e-33
+  gi|330858766|ref|YP_004415141.1| putative receptor-recognizing ...   145    5e-33
+  gi|339791446|gb|AEK12503.1| distal long tail fiber assembly cat...   141    5e-32
+  gi|33620655|ref|NP_891650.1| distal long tail fiber assembly ca...   138    4e-31
+  gi|323934265|gb|EGB30689.1| phage tail fibre adhesin Gp38 [Esch...   135    5e-30
+  gi|294661658|ref|YP_003580111.1| gp38 distal long tail fiber as...  61.2    8e-08
+
+Sequences not found previously or not previously below threshold:
+
+  gi|66391733|ref|YP_239258.1| gp38 distal long tail fiber assemb...  60.4    2e-07
+
+
+> gi|345450671|gb|AEN93874.1| long tail fiber assembly catalyst 
+[Enterobacteria phage Bp7]
+Length=263
+
+ Score =  204 bits (518),  Expect = 1e-50, Method: Composition-based stats.
+ Identities = 75/154 (49%), Positives = 90/154 (59%), Gaps = 6/154 (3%)
+
+Query  1    MAVQGP--WVGSSYVAETGQNWASLAANELRVTERPFWISSFIGRSKEEIWEWTGENHSF  58
+            MAV G   W+G+S VAETGQ W + A+ ELR+   P W+S F GRS+E I    G +H+F
+Sbjct  1    MAVVGIPGWIGTSAVAETGQRWMTAASRELRLGN-PSWMSQFAGRSREII-HTLGADHNF  58
+
+Query  59   NKDWLIGELRNRGGTPVVINIRAHQVSYTPGAPLFEFPGDLPNAYITLNIYADIY--GRG  116
+            N  W        GG P+V NI  + VSYT   PLF   GD PN Y+TLNI+  ++  GRG
+Sbjct  59   NGQWFRDRCFEAGGAPIVFNITGNLVSYTKDVPLFFMYGDTPNEYVTLNIHGGVHMWGRG  118
+
+Query  117  GTGGVAYLGGNPGGDCIHNWIGNRLRINNQGWIC  150
+            G G V    G  GGD I N IG RLRI N G I 
+Sbjct  119  GNGTVNGNPGTNGGDVIQNDIGGRLRIWNYGVIA  152
+
+
+> gi|3676528|gb|AAC62008.1| tail fiber adhesin gp38 [Enterobacteria 
+phage Ac3]
+Length=258
+
+ Score =  199 bits (506),  Expect = 2e-49, Method: Composition-based stats.
+ Identities = 112/257 (44%), Positives = 135/257 (53%), Gaps = 13/257 (5%)
+
+Query  1    MAVQGPWVGSSYVAETGQNWASLAANELRVTERPFWISSFIGRSKEEIWEWTGENHSFNK  60
+            MAV+GPWVG S   +TG  W   AA  LR+   PFW+S+ IGRS E I    G +H+FN 
+Sbjct  1    MAVEGPWVGWSARVQTGDPWMGGAAQRLRMGI-PFWMSNMIGRSVEII-HTLGADHNFNG  58
+
+Query  61   DWLIGELRNRGGTPVVINIRAHQVSYTPGAPLFEFPGDLPNAYITLNIYADIYGRGGTGG  120
+             W        G TP+V NI    VSY+   PLF   GD PN Y+ LNI+       G  G
+Sbjct  59   QWFRDRCFEAGSTPIVFNITGDLVSYSKDVPLFFMYGDTPNEYVQLNIHGVAMYGRGGNG  118
+
+Query  121  VAYLGGNPGGDCIHNWIGNRLRINNQGWICGGGGGGGGFRVGHT--EAGGGGGRPLGAGG  178
+             +   G+ GG CI N IG RLRINN G I GGGGGGGG   G      GGG     G   
+Sbjct  119  GSNSPGSAGGHCIQNDIGGRLRINNGGAIAGGGGGGGGGNRGRLVFGGGGGRPFGSGGSS  178
+
+Query  179  VSSLNLNGDNATLGAPGRGY----QLGNDYAGNGGDVGNP-----GSASSAEMGGGAAGR  229
+            +S ++      T+ APG G      L     G+GG+VG+         +  E  GGAAG 
+Sbjct  179  LSHMSAGATAGTIYAPGAGSVGEGSLSAYTGGSGGEVGSAGGRCNTHGTGTEYDGGAAGY  238
+
+Query  230  AVVGTSPQWINVGNIAG  246
+            AV+G+SP WINVG I G
+Sbjct  239  AVIGSSPTWINVGAIYG  255
+
+
+> gi|3335633|gb|AAC27318.1| tail fiber adhesin gp38 [Enterobacteria 
+phage RB27]
+Length=256
+
+ Score =  185 bits (469),  Expect = 4e-45, Method: Composition-based stats.
+ Identities = 109/257 (43%), Positives = 129/257 (51%), Gaps = 13/257 (5%)
+
+Query  1    MAVQGPWVGSSYVAETGQNWASLAANELRVTERPFWISSFIGRSKEEIWEWTGENHSFNK  60
+            MAV GPWVGSS V  TGQNW S AA  LR+   PFW+S+ IGRS E I    G +H+FN 
+Sbjct  1    MAVTGPWVGSSAVVNTGQNWMSSAAQRLRMGT-PFWMSNMIGRSVEVI-HTLGADHNFNG  58
+
+Query  61   DWLIGELRNRGGTPVVINIRAHQVSYTPGAPLFEFPGDLPNAYITLNIYADIYGRGGTGG  120
+             W        G  P++ N     VSY+   PLF   GD PN Y+ LNI+       G  G
+Sbjct  59   QWFRDRCFEAGSAPMMFNTTGDLVSYSKDVPLFFMYGDTPNEYVQLNIHGVTMYGRGGNG  118
+
+Query  121  VAYLGGNPGGDCIHNWIGNRLR-----INNQGWICGGGGGGGGFRVGHTEAGGGGGRPLG  175
+             +   G+ GG CI N IG RLR         G   GGGG    F       GGGGGRP G
+Sbjct  119  GSNSPGSAGGHCIQNDIGGRLRINNGGAIAGGGGGGGGGYYSPFSQMRLTFGGGGGRPFG  178
+
+Query  176  AGGVS-SLNLNGDNATLGAPGRGYQLGNDYAGNGGDVGNP-----GSASSAEMGGGAAGR  229
+            A G S  +       T+ APG G   G    G GG+VG+           +E  GG AG 
+Sbjct  179  APGGSIDMQSGATAGTISAPGAGSVNGIYSGGGGGEVGSRGGRCNIRGQGSEYDGGTAGY  238
+
+Query  230  AVVGTSPQWINVGNIAG  246
+            AV+G++P W NVG I G
+Sbjct  239  AVIGSTPTWQNVGAIYG  255
+
+
+> gi|32453736|ref|NP_861945.1| gp38 distal long tail fiber assembly 
+catalyst [Enterobacteria phage RB69] gi|32350555|gb|AAP76154.1| 
+gp38 distal long tail fiber assembly catalyst [Enterobacteria 
+phage RB69]
+Length=257
+
+ Score =  182 bits (463),  Expect = 2e-44, Method: Composition-based stats.
+ Identities = 111/259 (43%), Positives = 134/259 (52%), Gaps = 12/259 (4%)
+
+Query  1    MAVQGPWVGSSYVAETGQNWASLAANELRVTERPFWISSFIGRSKEEIWEWTGENHSFNK  60
+            MAV+GPWVG S   +TG  W   AA  LR+   PFW+S+ IGRS E I    G +H+FN 
+Sbjct  1    MAVEGPWVGWSARVQTGDPWMGGAAQRLRMGI-PFWMSNMIGRSVEVI-HTLGADHNFNG  58
+
+Query  61   DWLIGELRNRGGTPVVINIRAHQVSYTPGAPLFEFPGDLPNAYITLNIYADIY--GRGGT  118
+             W        G  P+V NI  + VSY+   PLF   GD PN Y+TLNI+  ++  GRGG 
+Sbjct  59   QWFRDRCFEAGSAPIVFNITGNLVSYSKDVPLFFMYGDTPNEYVTLNIHGGVHMWGRGGN  118
+
+Query  119  GGVAYLGGNPGGDCIHNWIGNRLRINNQGWICGGGGGGGGFRVGHTEA----GGGGGRPL  174
+            G V    G  GGD I N IG RLRI N G I  GGGGGG   + ++ A     GGGG   
+Sbjct  119  GTVNGNPGTNGGDVIQNDIGGRLRIWNYGVIASGGGGGGAVSLQNSWAPNATAGGGGGRP  178
+
+Query  175  GAGGVSSLNLNGDNATLGAPGRGYQLGND----YAGNGGDVGNPGSASSAEMGGGAAGRA  230
+               G   +N  G NA+  APG                GG  G+      +  GGGA GRA
+Sbjct  179  FGIGGGGVNWPGGNASYDAPGGAGYTSQFGGGNGGDAGGRGGDGWGNHLSRSGGGAPGRA  238
+
+Query  231  VVGTSPQWINVGNIAGSWL  249
+            V G+SP W   G I GSW+
+Sbjct  239  VFGSSPSWGATGTIYGSWI  257
+
+
+> gi|116326466|ref|YP_803186.1| gp38 [Enterobacteria phage RB32] 
+gi|115344059|gb|ABI95068.1| gp38 [Enterobacteria phage RB32] 
+gi|356690010|gb|AET36517.1| tail fiber adhesin [Enterobacteria 
+phage RB33]
+Length=266
+
+ Score =  174 bits (441),  Expect = 7e-42, Method: Composition-based stats.
+ Identities = 104/265 (40%), Positives = 127/265 (48%), Gaps = 21/265 (7%)
+
+Query  1    MAVQGP--WVGSSYVAETGQNWASLAANELRVTERPFWISSFIGRSKEEIWEWTGENHSF  58
+            MAV G   W+GSS V ETGQ W S AA +LR+   P W+S F GRS+E I    G +H+F
+Sbjct  1    MAVVGVPGWIGSSAVNETGQRWMSQAAGQLRLGV-PCWMSQFAGRSREII-HTLGADHNF  58
+
+Query  59   NKDWLIGELRNRGGTPVVINIRAHQVSYTPGAPLFEFPGDLPNAYITLNIYADIY--GRG  116
+            N  W        G  P+V NI  + VSY+   PLF   GD PN Y+ LNI   ++  GRG
+Sbjct  59   NGQWFRDRCFEAGSAPIVFNITGNLVSYSRDVPLFFMYGDTPNEYVQLNIGGGVHMWGRG  118
+
+Query  117  GTGGVAYL----GGNPGGDCIHNWIGNRLRINN-QGWICGGGGGGGGFRVGHTEA-----  166
+            G GG  +      G  GG CI N IG RLRINN      GGGGGGG     H+ A     
+Sbjct  119  GQGGWTHSGGDGNGQQGGHCIQNDIGGRLRINNGGVICGGGGGGGGIAYRPHSGAKWQDI  178
+
+Query  167  -----GGGGGRPLGAGGVSSLNLNGDNATLGAPGRGYQLGNDYAGNGGDVGNPGSASSAE  221
+                    G    G     + + +G              G D   NG +  + G      
+Sbjct  179  GGGGGRPFGPGGGGGYSGGAASYDGPGGGYNYGNAHSGQGGDAGANGQNAWHDGGKVLKV  238
+
+Query  222  MGGGAAGRAVVGTSPQWINVGNIAG  246
+              GGAAG AV+G++P W NVG I G
+Sbjct  239  GAGGAAGYAVIGSAPTWQNVGVIYG  263
+
+
+> gi|20140796|sp|Q9G0B4.1|VG38_BPAR1 RecName: Full=Receptor-recognizing 
+protein; AltName: Full=Protein Gp38 gi|11095167|gb|AAG29755.1|AF208841_3 
+gp38 [Enterobacteria phage AR1]
+Length=259
+
+ Score =  173 bits (439),  Expect = 1e-41, Method: Composition-based stats.
+ Identities = 111/258 (44%), Positives = 131/258 (51%), Gaps = 14/258 (5%)
+
+Query  1    MAVQGPWVGSSYVAETGQNWASLAANELRVTERPFWISSFIGRSKEEIWEWTGENHSFNK  60
+            MAV GPWVGSS V  TGQNW   AA  LR+   PFW+S+ IGRS E I    G +H+FN 
+Sbjct  1    MAVTGPWVGSSAVVNTGQNWMVGAAQRLRMGA-PFWMSNMIGRSVEVI-HTLGADHNFNG  58
+
+Query  61   DWLIGELRNRGGTPVVINIRAHQVSYTPGAPLFEFPGDLPNAYITLNIYA-DIYGRGGTG  119
+             W        G  P+V NI    VSY+   PLF   GD PN Y+ LNI+   +YGRGG G
+Sbjct  59   QWFRDRCFEAGSAPIVFNITGDLVSYSRDVPLFFMYGDTPNEYVQLNIHGVTMYGRGGNG  118
+
+Query  120  -GVAYLGGNPGGDCIHNWIGNRLRINNQGWICGGGGGGGGFRVGHTEAGGGGGRPLGAGG  178
+                 +G + GG CI N IG RLRINN G I GGGGGGGG+   +  AG       G   
+Sbjct  119  WAACAIGASDGGVCIQNDIGGRLRINNGGAIAGGGGGGGGYSQANNWAGKYVCGGGGGRP  178
+
+Query  179  VSSLNLNGD-----NATLGAPGRGYQLGNDYAGNGGDVGN-----PGSASSAEMGGGAAG  228
+                  NG      NA+L +PG G   G  Y   GG             +S      + G
+Sbjct  179  FGLGGNNGARWPGGNASLTSPGAGGNTGTRYYAGGGGEVGQPGQYANPGASYSTPPTSPG  238
+
+Query  229  RAVVGTSPQWINVGNIAG  246
+             AV G++P W NVG I G
+Sbjct  239  AAVAGSAPTWQNVGAIYG  256
+
+
+> gi|3676461|gb|AAC61977.1| tail fiber adhesin [Enterobacteria 
+phage T6]
+Length=261
+
+ Score =  172 bits (435),  Expect = 4e-41, Method: Composition-based stats.
+ Identities = 110/260 (43%), Positives = 134/260 (52%), Gaps = 16/260 (6%)
+
+Query  1    MAVQGP--WVGSSYVAETGQNWASLAANELRVTERPFWISSFIGRSKEEIWEWTGENHSF  58
+            MAV G   W+GSS V ETGQ W S AA +LR+   P W+S F GRS+E I      NH+F
+Sbjct  1    MAVVGVPGWIGSSSVNETGQRWMSQAAGQLRLGV-PCWMSQFAGRSREII-HTVSANHNF  58
+
+Query  59   NKDWLIGELRNRGGTPVVINIRAHQVSYTPGAPLFEFPGDLPNAYITLNIYADIYG-RGG  117
+            N  W        GG P+V NI    VSY+   PLF   GD PN Y+ LNI+  ++    G
+Sbjct  59   NGQWFRDRCFEAGGAPIVFNIVGDIVSYSKDVPLFFMYGDTPNEYVVLNIHGGVHMWGRG  118
+
+Query  118  TGGVAYLGGNPGGDCIHNWIGNRLR-----INNQGWICGGGGGGGGFRVGHTEAGGGGGR  172
+              G +   G+ GG CI N IG RLR         G   GGGG    F       GGGGGR
+Sbjct  119  GNGGSNSPGSAGGHCIQNDIGGRLRINNGGAIAGGGGGGGGGYYSPFPQMRLTFGGGGGR  178
+
+Query  173  PLGAGGVS-SLNLNGDNATLGAPGRGYQLGNDYAGNGGDVGNP-----GSASSAEMGGGA  226
+            P GA G S ++       T+ +PG G   G    GNGG+VG+           +E  GGA
+Sbjct  179  PFGAPGGSINMQSGATGGTISSPGSGSVNGIYNGGNGGEVGSAGGRCNIRGQGSEYDGGA  238
+
+Query  227  AGRAVVGTSPQWINVGNIAG  246
+            AG AV+G++P W NVG I G
+Sbjct  239  AGYAVIGSAPTWQNVGAIYG  258
+
+
+> gi|161622646|ref|YP_001595373.1| gp38 distal long tail fiber 
+assembly catalyst [Enterobacteria phage JS98] gi|52139852|gb|AAU29224.1| 
+gp38 distal long tail fiber assembly catalyst [Enterobacteria 
+phage JS98]
+Length=262
+
+ Score =  169 bits (429),  Expect = 2e-40, Method: Composition-based stats.
+ Identities = 74/154 (49%), Positives = 90/154 (59%), Gaps = 7/154 (4%)
+
+Query  1    MAVQGP--WVGSSYVAETGQNWASLAANELRVTERPFWISSFIGRSKEEIWEWTGENHSF  58
+            MAV G   W+G+S VAETGQ W + A+ ELR+   P W+S F GRS+E I    G +H+F
+Sbjct  1    MAVVGIPGWIGTSAVAETGQRWMTAASRELRLGN-PSWMSQFAGRSREII-HTLGADHNF  58
+
+Query  59   NKDWLIGELRNRGGTPVVINIRAHQVSYTPGAPLFEFPGDLPNAYITLNIYADIY--GRG  116
+            N  W        G  P+V NI    VSYT   PLF   GD PN Y+TLNI+  ++  GRG
+Sbjct  59   NGQWFRDRCFEAGAAPIVFNITGDLVSYTKDVPLFFMYGDTPNEYVTLNIHGGVHMWGRG  118
+
+Query  117  GTGGVA-YLGGNPGGDCIHNWIGNRLRINNQGWI  149
+            G GG   ++ G  GGD I N IG RLRI N G I
+Sbjct  119  GNGGTRVWIAGTNGGDVIQNDIGGRLRIWNYGVI  152
+
+
+> gi|138022|sp|P08233.1|VG38_BPOX2 RecName: Full=Receptor-recognizing 
+protein; AltName: Full=Protein Gp38 gi|15126|emb|CAA29158.1| 
+unnamed protein product [Enterobacteria phage Ox2]
+Length=266
+
+ Score =  169 bits (427),  Expect = 3e-40, Method: Composition-based stats.
+ Identities = 70/154 (46%), Positives = 84/154 (55%), Gaps = 10/154 (6%)
+
+Query  1    MAVQGP--WVGSSYVAETGQNWASLAANELRVTERPFWISSFIGRSKEEIWEWTGENHSF  58
+            MAV G   W+GSS V ETGQ W S AA +LR+   P W+S F GRS+E I    G +H+F
+Sbjct  1    MAVVGVPGWIGSSSVNETGQRWMSQAAGQLRLGV-PCWMSQFAGRSREII-HTLGADHNF  58
+
+Query  59   NKDWLIGELRNRGGTPVVINIRAHQVSYTPGAPLFEFPGDLPNAYITLNIYADIY--GRG  116
+            N  W        G  P+V NI    VSY+   PLF   GD PN Y+ LNI+  ++  GRG
+Sbjct  59   NGQWFRDRCFEAGSAPIVFNITGDLVSYSKDVPLFFMYGDTPNEYVVLNIHGGVHMWGRG  118
+
+Query  117  GTGGVAYL----GGNPGGDCIHNWIGNRLRINNQ  146
+            G GG  +      G  GG  I N IG RLRI N 
+Sbjct  119  GNGGYTHSGGDGNGTQGGHVIQNDIGGRLRIWNY  152
+
+
+> gi|356689998|gb|AET36511.1| tail fiber adhesin [Enterobacteria 
+phage Mi]
+Length=263
+
+ Score =  164 bits (415),  Expect = 8e-39, Method: Composition-based stats.
+ Identities = 118/262 (46%), Positives = 139/262 (54%), Gaps = 18/262 (6%)
+
+Query  1    MAVQGP--WVGSSYVAETGQNWASLAANELRVTERPFWISSFIGRSKEEIWEWTGENHSF  58
+            MAV G   W+GSS   ETGQ W S AA +LR+   P W+S F GRS+E I    G +H+F
+Sbjct  1    MAVVGVPGWIGSSAANETGQRWMSQAAGQLRLGV-PCWMSQFAGRSREII-HTLGADHNF  58
+
+Query  59   NKDWLIGELRNRGGTPVVINIRAHQVSYTPGAPLFEFPGDLPNAYITLNIYADIYGRGGT  118
+            N  W        G  P+V NI    VSY+   PLF   GD PN Y+ LNI+       G 
+Sbjct  59   NGQWFRDRCFEAGSAPIVFNITGDLVSYSKDVPLFFMYGDTPNEYVQLNIHGVTMYGRGG  118
+
+Query  119  GGVAYLGGNPGGDCIHNWIGNRLRINNQGWICGGGGGGGGF------RVGHTEAGGGGGR  172
+             G +   G+ GG CI N IG RLRINN G I GGGGGGGG           +  GGGGGR
+Sbjct  119  NGGSNSPGSAGGHCIQNNIGGRLRINNGGAIAGGGGGGGGGYWNAGITRYRSVVGGGGGR  178
+
+Query  173  PLGAGGVSSLNLNGDNATLGAPGRGYQLGND-YAGNGGDVGNP-------GSASSAEMGG  224
+            P GA G  S        TL   G G + GN  Y GNGG+VG+          +  A  GG
+Sbjct  179  PFGAAGGYSGGSASTAGTLTGAGIGSKPGNAIYGGNGGNVGSAGGACGGISGSRYARYGG  238
+
+Query  225  GAAGRAVVGTSPQWINVGNIAG  246
+            GAAG AV+G++P W NVG I G
+Sbjct  239  GAAGYAVIGSAPTWQNVGAIYG  260
+
+
+> gi|138023|sp|P07875.1|VG38_BPT2 RecName: Full=Receptor-recognizing 
+protein; AltName: Full=Protein Gp38 gi|15198|emb|CAA28935.1| 
+unnamed protein product [Enterobacteria phage T2]
+Length=262
+
+ Score =  157 bits (397),  Expect = 1e-36, Method: Composition-based stats.
+ Identities = 68/149 (46%), Positives = 86/149 (58%), Gaps = 6/149 (4%)
+
+Query  1    MAVQGP--WVGSSYVAETGQNWASLAANELRVTERPFWISSFIGRSKEEIWEWTGENHSF  58
+            MA+ G   W+G S V ETGQ W   A   + V+  P W+SS  G+SKE I+   G NH++
+Sbjct  1    MAIVGVPGWIGESAVNETGQRWMDAAMRAVHVSV-PGWMSSMAGQSKE-IYLSIGANHNY  58
+
+Query  59   NKDWLIGELRNRGGTPVVINIRAHQVSYTPGAPLFEFPGDLPNAYITLNIYA--DIYGRG  116
+            +++ LI  +R +GG PVVI I    VS + G    EFP DLPNAYI L I +   +YGRG
+Sbjct  59   DRNSLINWMRAQGGAPVVITITGDLVSNSTGNACLEFPSDLPNAYIQLIINSGVTVYGRG  118
+
+Query  117  GTGGVAYLGGNPGGDCIHNWIGNRLRINN  145
+            G G      G  GG  IHN  G +LRI N
+Sbjct  119  GNGSTNSSAGGNGGTAIHNAAGTKLRIRN  147
+
+
+> gi|138020|sp|P07876.1|VG38_BPK3 RecName: Full=Receptor-recognizing 
+protein; AltName: Full=Protein Gp38 gi|15113|emb|CAA29074.1| 
+unnamed protein product [Enterobacteria phage K3]
+Length=260
+
+ Score =  151 bits (382),  Expect = 5e-35, Method: Composition-based stats.
+ Identities = 110/260 (43%), Positives = 139/260 (54%), Gaps = 15/260 (5%)
+
+Query  1    MAVQGP--WVGSSYVAETGQNWASLAANELRVTERPFWISSFIGRSKEEIWEWTGENHSF  58
+            MA+ G   W+G S V ETGQ W   A  E+RV+  P W+SS  G+SKE I    G ++S+
+Sbjct  1    MAIVGVPGWIGESAVNETGQRWMDAAMREVRVSV-PGWMSSMAGQSKE-IHYSIGASNSY  58
+
+Query  59   NKDWLIGELRNRGGTPVVINIRAHQVSYTPGAPLFEFPGDLPNAYITLNIYADI-YGRGG  117
+            NKD LI  ++ +G TPVVI I  + VS + G P  +FP  L NAY+TL I + +     G
+Sbjct  59   NKDTLINWIKAQGSTPVVITITGNIVSQSTGVPCLDFPSSLTNAYVTLIINSGVTVYGRG  118
+
+Query  118  TGGVAYLGGNPGGDCIHNWIGNRLRINNQGWICGGGGGGGGFRVGHT-EAGGGGGRPLGA  176
+              G +   G  GG+ I+N IG RLRI N G I GGGGGGGG   G     GGGG      
+Sbjct  119  GNGGSNAAGAAGGNAINNGIGTRLRITNNGAIAGGGGGGGGGNRGKLIFGGGGGRPFGAG  178
+
+Query  177  GGVSSLNLNGDNATLGAPGRGY----QLGNDYAGNGGDVGNP-----GSASSAEMGGGAA  227
+            G  S ++      T+ APG+G      L     G GG+VG          +  E  GGAA
+Sbjct  179  GSSSHMSSGATAGTISAPGKGSVGEGSLSAYTGGAGGNVGAAGGRCNTQGNGTEYNGGAA  238
+
+Query  228  GRAVVGTSPQWINVGNIAGS  247
+            G+AV G +P W  VG I GS
+Sbjct  239  GKAVTGNAPTWTKVGTIYGS  258
+
+
+> gi|311993250|ref|YP_004010116.1| gp38 distal long tail fiber 
+assembly catalyst [Enterobacteria phage CC31] gi|284178088|gb|ADB81754.1| 
+gp38 distal long tail fiber assembly catalyst 
+[Enterobacteria phage CC31]
+Length=261
+
+ Score =  149 bits (377),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 91/260 (35%), Positives = 120/260 (47%), Gaps = 14/260 (5%)
+
+Query  1    MAVQGPWVGSSYVAETGQNWASLAANELRVTERPFWISSFIGRSKEEIWEWTGENHSFNK  60
+            MA+ GP +G+S+  ETGQ   S A   +R+  RP      +G SKE  +   G N+S+NK
+Sbjct  1    MAIAGPNIGTSWFRETGQRPMSAARVAVRLPARPGGARQMVGLSKEVNYN-IGANNSYNK  59
+
+Query  61   DWLIGELRNRGGTPVVINIRAHQVSYTPGAPLFEFPGDLPNAYITLNIYADI-YGRGGTG  119
+            D LI  LR++G TPVV+ I  + VSY+ G    EFP +LPNAY+ L I   +     G  
+Sbjct  60   DTLINYLRSQGSTPVVVTITGNLVSYSSGVACLEFPANLPNAYVHLIINGGVTLYGRGGN  119
+
+Query  120  GVAYLGGNPGGDCIHNWIGNRLRIN---NQGWICGGGGGGGGFRVGHTEAGGGGGRPLGA  176
+            G     G  GG  I+N  G RLRI          GGGGG              G      
+Sbjct  120  GGVKGNGAAGGHAINNQFGTRLRITNNGAIAGGGGGGGGNSANGGMGGGGRPFGYADKTH  179
+
+Query  177  GGVSSLNLNGDNATLGAPGRGYQLGNDYA---------GNGGDVGNPGSASSAEMGGGAA  227
+               ++ +    + TL +PG G +     A           G + G          GGG+A
+Sbjct  180  PPAAATSRAATDGTLTSPGIGAEYKIGTAVQYTCGSGGNVGANGGASTGRLGTNYGGGSA  239
+
+Query  228  GRAVVGTSPQWINVGNIAGS  247
+            GRAV+G +P W  VG I GS
+Sbjct  240  GRAVIGNAPTWNKVGTIYGS  259
+
+
+> gi|299779192|ref|YP_003734386.1| 38 gene product [Enterobacteria 
+phage IME08] gi|298105921|gb|ADI55565.1| gp38 distal long 
+tail fiber adhesin [Enterobacteria phage IME08]
+Length=263
+
+ Score =  145 bits (366),  Expect = 4e-33, Method: Composition-based stats.
+ Identities = 68/149 (46%), Positives = 85/149 (58%), Gaps = 6/149 (4%)
+
+Query  1    MAVQGP--WVGSSYVAETGQNWASLAANELRVTERPFWISSFIGRSKEEIWEWTGENHSF  58
+            MA+ G   WVG S V ETGQ W   A  ++RV   P W+ S   +SKE I+   G NH++
+Sbjct  2    MAIVGLPGWVGQSAVDETGQRWMDAAMRDVRVAV-PGWMGSMANQSKE-IYYSIGANHNY  59
+
+Query  59   NKDWLIGELRNRGGTPVVINIRAHQVSYTPGAPLFEFPGDLPNAYITLNIYA--DIYGRG  116
+            +K+ LI  +R +GG PVVI I  + VS + G    EFP DLPNAYI L I +   +YGRG
+Sbjct  60   DKNTLINWMRAQGGAPVVITITGNIVSNSTGNACLEFPSDLPNAYIQLTINSGVTVYGRG  119
+
+Query  117  GTGGVAYLGGNPGGDCIHNWIGNRLRINN  145
+            G G      G  GG  I N  G +LRI N
+Sbjct  120  GNGSTNGSAGGNGGVAIRNSAGTKLRIRN  148
+
+
+> gi|330858766|ref|YP_004415141.1| putative receptor-recognizing 
+protein [Shigella phage Shfl2] gi|327397700|gb|AEA73202.1| 
+putative receptor-recognizing protein [Shigella phage Shfl2]
+Length=263
+
+ Score =  145 bits (365),  Expect = 5e-33, Method: Composition-based stats.
+ Identities = 63/145 (44%), Positives = 86/145 (60%), Gaps = 5/145 (3%)
+
+Query  1    MAVQGP--WVGSSYVAETGQNWASLAANELRVTERPFWISSFIGRSKEEIWEWTGENHSF  58
+            MA+ G   W+G S V ETGQ W   A   +RV+  P W+SS  G+SKE ++   G ++S+
+Sbjct  1    MAIVGVPGWIGESAVNETGQRWMDAAMRAVRVSV-PGWMSSMAGQSKE-VYYSVGASNSY  58
+
+Query  59   NKDWLIGELRNRGGTPVVINIRAHQVSYTPGAPLFEFPGDLPNAYITLNIYADIY-GRGG  117
+            NKD LI  ++ +G TPVVI I  + VS + G P  +FP  L NAY+TLNI + ++    G
+Sbjct  59   NKDTLINWIKAQGSTPVVITITGNIVSQSTGVPCLDFPSSLTNAYVTLNINSGVHVLGRG  118
+
+Query  118  TGGVAYLGGNPGGDCIHNWIGNRLR  142
+              G +   G  GG  I+N IG RLR
+Sbjct  119  GNGGSNSAGGAGGTAINNGIGTRLR  143
+
+
+> gi|339791446|gb|AEK12503.1| distal long tail fiber assembly catalyst 
+[Enterobacteria phage ime09]
+Length=264
+
+ Score =  141 bits (356),  Expect = 5e-32, Method: Composition-based stats.
+ Identities = 102/264 (39%), Positives = 135/264 (52%), Gaps = 19/264 (7%)
+
+Query  1    MAVQGP--WVGSSYVAETGQNWASLAANELRVTERPFWISSFIGRSKEEIWEWTGENHSF  58
+            MA+ G   W+G S V ETGQ W   A   +RV+  P W+SS  G+SKE ++   G ++S+
+Sbjct  1    MAIVGVPGWIGESAVNETGQRWMDAAMRAVRVSV-PGWMSSMAGQSKE-VYYSIGASNSY  58
+
+Query  59   NKDWLIGELRNRGGTPVVINIRAHQVSYTPGAPLFEFPGDLPNAYITLNIYADI---YGR  115
+            NKD LI  L+++G TPVV+ I  + VS + G P  +FP  L NAY+TL I   +      
+Sbjct  59   NKDTLINYLKSQGSTPVVVTITGNLVSSSAGQPCLDFPSSLTNAYVTLIINGGVTVYGRG  118
+
+Query  116  GGTGGVAYLGGNPGGDCIHNWIGNRLRINN-----QGWICGGGGGGGGFRVGHTEAGGGG  170
+            G         G  GG  I+N IG RLRI N      G   GG         G   +GGGG
+Sbjct  119  GRGAQAGNQAGEAGGTAINNGIGTRLRITNNGAIAGGGGGGGAQSTDNGWGGKYVSGGGG  178
+
+Query  171  GRPLGAGGVSSLNLNGDNATLGAPGRGYQLGNDYAGNGGDVG-------NPGSASSAEMG  223
+            GRP GAGG +     G +A+L +PG G ++ +     GGD G       +    +     
+Sbjct  179  GRPFGAGGNNGAKAPGASASLTSPGAGGKMYSGVGYYGGDGGNVGERGKDAVRLNGYSNS  238
+
+Query  224  GGAAGRAVVGTSPQWINVGNIAGS  247
+             GAAG+AV G +P W  VG I GS
+Sbjct  239  PGAAGKAVTGNAPTWTKVGTIYGS  262
+
+
+> gi|33620655|ref|NP_891650.1| distal long tail fiber assembly 
+catalyst [Enterobacteria phage RB49] gi|30144321|gb|AAL15128.2| 
+distal long tail fiber assembly catalyst [Enterobacteria 
+phage RB49]
+Length=258
+
+ Score =  138 bits (348),  Expect = 4e-31, Method: Composition-based stats.
+ Identities = 107/258 (42%), Positives = 142/258 (56%), Gaps = 13/258 (5%)
+
+Query  1    MAVQGPWVGSSYVAETGQNWASLAANELRVTERPFWISSFIGRSKEEIWEWTGENHSFNK  60
+            MA++  WVGSS V+ETGQ W S A   +R+  RP ++S+ +GRSKE I    G ++S+NK
+Sbjct  1    MAIKAGWVGSSAVSETGQRWMSAAMQAVRLG-RPAYMSAMVGRSKE-IHYSIGASNSYNK  58
+
+Query  61   DWLIGELRNRGGTPVVINIRAHQVSYTPGAPLFEFPGDLPNAYITLNIYADI-YGRGGTG  119
+            D LI  ++ +G TPVVI I  + VS + G P  +FP  L N Y+TL I + +     G  
+Sbjct  59   DTLINWMKAQGSTPVVITITGNIVSQSTGVPCLDFPSSLTNEYVTLIINSGVTVYGRGGN  118
+
+Query  120  GVAYLGGNPGGDCIHNWIGNRLRINNQGWICGGGGGGGGFRVGHTE-AGGGGGRPLGAGG  178
+            G +   G  GG+ I+N IG RLRI N G I GGGGGGGG   G     GGGG      G 
+Sbjct  119  GGSNAAGAAGGNAINNAIGTRLRITNNGAIAGGGGGGGGGNRGRLVFGGGGGRPFGAGGS  178
+
+Query  179  VSSLNLNGDNATLGAPGRGY----QLGNDYAGNGGDVGNP-----GSASSAEMGGGAAGR  229
+             S++       ++ APG+G      L     G GG+VG          +  E  GGAAG+
+Sbjct  179  SSNMGSGATAGSISAPGKGSVGEGSLSAYTGGAGGNVGAAGGRCNTQGNGTEYNGGAAGK  238
+
+Query  230  AVVGTSPQWINVGNIAGS  247
+            AV G +P+W  VG I G+
+Sbjct  239  AVTGNAPRWDKVGTIYGA  256
+
+
+> gi|323934265|gb|EGB30689.1| phage tail fibre adhesin Gp38 [Escherichia 
+coli E1520]
+Length=260
+
+ Score =  135 bits (339),  Expect = 5e-30, Method: Composition-based stats.
+ Identities = 104/260 (40%), Positives = 136/260 (53%), Gaps = 15/260 (5%)
+
+Query  1    MAVQGP--WVGSSYVAETGQNWASLAANELRVTERPFWISSFIGRSKEEIWEWTGENHSF  58
+            M + G   W+GSS V+ TGQ W S A   ++++     +S   GRSKE I    G NH++
+Sbjct  1    MPIVGVPGWIGSSAVSVTGQRWMSAARTAVQLSAAGN-MSQLAGRSKE-IHYSIGANHNY  58
+
+Query  59   NKDWLIGELRNRGGTPVVINIRAHQVSYTPGAPLFEFPGDLPNAYITLNIYADI-YGRGG  117
+            NKD LI  L+++G TPVV+ I    VS + G P  +FP  L N+YI+L I A +     G
+Sbjct  59   NKDTLINYLKSQGATPVVVTITGDLVSSSSGVPCLDFPSSLTNSYISLVINAGVTVYGRG  118
+
+Query  118  TGGVAYLGGNPGGDCIHNWIGNRLRINNQGWICGGGGGGGGFRVGHT-EAGGGGGRPLGA  176
+              G +   G  GG+ I+N IG RLRI N G I GGGGGGGG   G     GGGG      
+Sbjct  119  GNGGSNAAGAAGGNAINNGIGTRLRITNNGAIAGGGGGGGGGNRGKLIFGGGGGRPFGAG  178
+
+Query  177  GGVSSLNLNGDNATLGAPGRGY----QLGNDYAGNGGDVGNP-----GSASSAEMGGGAA  227
+            G  S ++      T+ APG+G      L     G+GG+VG          +  E  GGAA
+Sbjct  179  GSSSHMSSGATAGTISAPGKGSVGEGSLSAYTGGSGGNVGAAGGRCNTQGNGTEYNGGAA  238
+
+Query  228  GRAVVGTSPQWINVGNIAGS  247
+            G+AV G +P W   G I G+
+Sbjct  239  GKAVTGNAPTWTKAGAIYGA  258
+
+
+> gi|294661658|ref|YP_003580111.1| gp38 distal long tail fiber 
+assembly catalyst [Klebsiella phage KP15] gi|292660819|gb|ADE35067.1| 
+gp38 distal long tail fiber assembly catalyst [Klebsiella 
+phage KP15]
+Length=175
+
+ Score = 61.2 bits (147),  Expect = 8e-08, Method: Composition-based stats.
+ Identities = 31/83 (38%), Positives = 41/83 (50%), Gaps = 1/83 (1%)
+
+Query  1   MAVQGPWVGSSYVAETGQNWASLAANELRVTERPFWISSFIGRSKEEIWEWTGENHSFNK  60
+           MAV GPWVGSS  AETG+ W   A  +LR+   PFW+S+ IG+S   +          + 
+Sbjct  1   MAVTGPWVGSSAKAETGEAWMVQAGAKLRIGT-PFWMSNMIGQSVFHLIFRINYAQGSSG  59
+
+Query  61  DWLIGELRNRGGTPVVINIRAHQ  83
+           D        + G  V I   A+Q
+Sbjct  60  DPSRYRGFFKRGLSVNIGDSANQ  82
+
+
+> gi|66391733|ref|YP_239258.1| gp38 distal long tail fiber assembly 
+catalyst [Enterobacteria phage RB43] gi|62288821|gb|AAX78804.1| 
+gp38 distal long tail fiber assembly catalyst [Enterobacteria 
+phage RB43]
+Length=174
+
+ Score = 60.4 bits (145),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 23/50 (46%), Positives = 30/50 (60%), Gaps = 3/50 (6%)
+
+Query  1   MAVQGP--WVGSSYVAETGQNWASLAANELRVTERPFWISSFIGRSKEEI  48
+           MA+ G   W+GSS VAETGQ W S A + +R+   PFW+S    +S   I
+Sbjct  1   MAIVGVPGWIGSSAVAETGQRWMSAAGSAVRIGA-PFWMSQMANQSVYNI  49
+
+
+
+Lambda     K      H
+   0.309    0.136    0.400 
+
+Gapped
+Lambda     K      H
+   0.267   0.0414    0.140 
+
+Effective search space used: 242230656192
+Results from round 3
+
+
+Query= T0953s2
+
+Length=249
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  gi|345450671|gb|AEN93874.1| long tail fiber assembly catalyst [...   189    3e-46
+  gi|3335633|gb|AAC27318.1| tail fiber adhesin gp38 [Enterobacter...   183    1e-44
+  gi|3676528|gb|AAC62008.1| tail fiber adhesin gp38 [Enterobacter...   175    4e-42
+  gi|20140796|sp|Q9G0B4.1|VG38_BPAR1 RecName: Full=Receptor-recog...   174    5e-42
+  gi|32453736|ref|NP_861945.1| gp38 distal long tail fiber assemb...   174    6e-42
+  gi|116326466|ref|YP_803186.1| gp38 [Enterobacteria phage RB32] ...   174    7e-42
+  gi|3676461|gb|AAC61977.1| tail fiber adhesin [Enterobacteria ph...   169    3e-40
+  gi|138022|sp|P08233.1|VG38_BPOX2 RecName: Full=Receptor-recogni...   161    4e-38
+  gi|161622646|ref|YP_001595373.1| gp38 distal long tail fiber as...   158    4e-37
+  gi|311993250|ref|YP_004010116.1| gp38 distal long tail fiber as...   156    3e-36
+  gi|356689998|gb|AET36511.1| tail fiber adhesin [Enterobacteria ...   155    3e-36
+  gi|138023|sp|P07875.1|VG38_BPT2 RecName: Full=Receptor-recogniz...   152    3e-35
+  gi|138020|sp|P07876.1|VG38_BPK3 RecName: Full=Receptor-recogniz...   151    6e-35
+  gi|339791446|gb|AEK12503.1| distal long tail fiber assembly cat...   149    2e-34
+  gi|33620655|ref|NP_891650.1| distal long tail fiber assembly ca...   143    2e-32
+  gi|330858766|ref|YP_004415141.1| putative receptor-recognizing ...   143    2e-32
+  gi|299779192|ref|YP_003734386.1| 38 gene product [Enterobacteri...   137    8e-31
+  gi|323934265|gb|EGB30689.1| phage tail fibre adhesin Gp38 [Esch...   129    2e-28
+  gi|294661658|ref|YP_003580111.1| gp38 distal long tail fiber as...  82.8    3e-14
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> gi|345450671|gb|AEN93874.1| long tail fiber assembly catalyst 
+[Enterobacteria phage Bp7]
+Length=263
+
+ Score =  189 bits (479),  Expect = 3e-46, Method: Composition-based stats.
+ Identities = 94/211 (45%), Positives = 114/211 (55%), Gaps = 10/211 (4%)
+
+Query  1    MAVQGP--WVGSSYVAETGQNWASLAANELRVTERPFWISSFIGRSKEEIWEWTGENHSF  58
+            MAV G   W+G+S VAETGQ W + A+ ELR+   P W+S F GRS+E I    G +H+F
+Sbjct  1    MAVVGIPGWIGTSAVAETGQRWMTAASRELRLG-NPSWMSQFAGRSREII-HTLGADHNF  58
+
+Query  59   NKDWLIGELRNRGGTPVVINIRAHQVSYTPGAPLFEFPGDLPNAYITLNIYADIY--GRG  116
+            N  W        GG P+V NI  + VSYT   PLF   GD PN Y+TLNI+  ++  GRG
+Sbjct  59   NGQWFRDRCFEAGGAPIVFNITGNLVSYTKDVPLFFMYGDTPNEYVTLNIHGGVHMWGRG  118
+
+Query  117  GTGGVAYLGGNPGGDCIHNWIGNRLRINNQGWICGGGGGGGGFRVGHTEA----GGGGGR  172
+            G G V    G  GGD I N IG RLRI N G I  GGGGGG   + ++ A     GGGG 
+Sbjct  119  GNGTVNGNPGTNGGDVIQNDIGGRLRIWNYGVIASGGGGGGAVSLQNSWAPNATAGGGGG  178
+
+Query  173  PLGAGGVSSLNLNGDNATLGAPGRGYQLGND  203
+                 G   +N  G NA+  APG        
+Sbjct  179  RPFGIGGGGVNWPGGNASYDAPGGAGYTSQF  209
+
+
+> gi|3335633|gb|AAC27318.1| tail fiber adhesin gp38 [Enterobacteria 
+phage RB27]
+Length=256
+
+ Score =  183 bits (465),  Expect = 1e-44, Method: Composition-based stats.
+ Identities = 109/257 (43%), Positives = 129/257 (51%), Gaps = 13/257 (5%)
+
+Query  1    MAVQGPWVGSSYVAETGQNWASLAANELRVTERPFWISSFIGRSKEEIWEWTGENHSFNK  60
+            MAV GPWVGSS V  TGQNW S AA  LR+   PFW+S+ IGRS E I    G +H+FN 
+Sbjct  1    MAVTGPWVGSSAVVNTGQNWMSSAAQRLRMGT-PFWMSNMIGRSVEVI-HTLGADHNFNG  58
+
+Query  61   DWLIGELRNRGGTPVVINIRAHQVSYTPGAPLFEFPGDLPNAYITLNIYADIYGRGGTGG  120
+             W        G  P++ N     VSY+   PLF   GD PN Y+ LNI+       G  G
+Sbjct  59   QWFRDRCFEAGSAPMMFNTTGDLVSYSKDVPLFFMYGDTPNEYVQLNIHGVTMYGRGGNG  118
+
+Query  121  VAYLGGNPGGDCIHNWIGNRLR-----INNQGWICGGGGGGGGFRVGHTEAGGGGGRPLG  175
+             +   G+ GG CI N IG RLR         G   GGGG    F       GGGGGRP G
+Sbjct  119  GSNSPGSAGGHCIQNDIGGRLRINNGGAIAGGGGGGGGGYYSPFSQMRLTFGGGGGRPFG  178
+
+Query  176  AGGVS-SLNLNGDNATLGAPGRGYQLGNDYAGNGGDVGNP-----GSASSAEMGGGAAGR  229
+            A G S  +       T+ APG G   G    G GG+VG+           +E  GG AG 
+Sbjct  179  APGGSIDMQSGATAGTISAPGAGSVNGIYSGGGGGEVGSRGGRCNIRGQGSEYDGGTAGY  238
+
+Query  230  AVVGTSPQWINVGNIAG  246
+            AV+G++P W NVG I G
+Sbjct  239  AVIGSTPTWQNVGAIYG  255
+
+
+> gi|3676528|gb|AAC62008.1| tail fiber adhesin gp38 [Enterobacteria 
+phage Ac3]
+Length=258
+
+ Score =  175 bits (443),  Expect = 4e-42, Method: Composition-based stats.
+ Identities = 118/257 (46%), Positives = 141/257 (55%), Gaps = 13/257 (5%)
+
+Query  1    MAVQGPWVGSSYVAETGQNWASLAANELRVTERPFWISSFIGRSKEEIWEWTGENHSFNK  60
+            MAV+GPWVG S   +TG  W   AA  LR+   PFW+S+ IGRS E I    G +H+FN 
+Sbjct  1    MAVEGPWVGWSARVQTGDPWMGGAAQRLRMGI-PFWMSNMIGRSVEII-HTLGADHNFNG  58
+
+Query  61   DWLIGELRNRGGTPVVINIRAHQVSYTPGAPLFEFPGDLPNAYITLNIYADIYGRGGTGG  120
+             W        G TP+V NI    VSY+   PLF   GD PN Y+ LNI+       G  G
+Sbjct  59   QWFRDRCFEAGSTPIVFNITGDLVSYSKDVPLFFMYGDTPNEYVQLNIHGVAMYGRGGNG  118
+
+Query  121  VAYLGGNPGGDCIHNWIGNRLRINNQGWICGGGGGGGGFRVGHTEAGGGGGRPLGAGGV-  179
+             +   G+ GG CI N IG RLRINN G I GGGGGGGG   G    GGGGGRP G+GG  
+Sbjct  119  GSNSPGSAGGHCIQNDIGGRLRINNGGAIAGGGGGGGGGNRGRLVFGGGGGRPFGSGGSS  178
+
+Query  180  -SSLNLNGDNATLGAPGRGY----QLGNDYAGNGGDVGNP-----GSASSAEMGGGAAGR  229
+             S ++      T+ APG G      L     G+GG+VG+         +  E  GGAAG 
+Sbjct  179  LSHMSAGATAGTIYAPGAGSVGEGSLSAYTGGSGGEVGSAGGRCNTHGTGTEYDGGAAGY  238
+
+Query  230  AVVGTSPQWINVGNIAG  246
+            AV+G+SP WINVG I G
+Sbjct  239  AVIGSSPTWINVGAIYG  255
+
+
+> gi|20140796|sp|Q9G0B4.1|VG38_BPAR1 RecName: Full=Receptor-recognizing 
+protein; AltName: Full=Protein Gp38 gi|11095167|gb|AAG29755.1|AF208841_3 
+gp38 [Enterobacteria phage AR1]
+Length=259
+
+ Score =  174 bits (442),  Expect = 5e-42, Method: Composition-based stats.
+ Identities = 114/258 (45%), Positives = 134/258 (52%), Gaps = 14/258 (5%)
+
+Query  1    MAVQGPWVGSSYVAETGQNWASLAANELRVTERPFWISSFIGRSKEEIWEWTGENHSFNK  60
+            MAV GPWVGSS V  TGQNW   AA  LR+   PFW+S+ IGRS E I    G +H+FN 
+Sbjct  1    MAVTGPWVGSSAVVNTGQNWMVGAAQRLRMGA-PFWMSNMIGRSVEVI-HTLGADHNFNG  58
+
+Query  61   DWLIGELRNRGGTPVVINIRAHQVSYTPGAPLFEFPGDLPNAYITLNIYADIYGRGGTGG  120
+             W        G  P+V NI    VSY+   PLF   GD PN Y+ LNI+       G  G
+Sbjct  59   QWFRDRCFEAGSAPIVFNITGDLVSYSRDVPLFFMYGDTPNEYVQLNIHGVTMYGRGGNG  118
+
+Query  121  V--AYLGGNPGGDCIHNWIGNRLRINNQGWICGGGGGGGGFRVGHTEA-----GGGGGRP  173
+                 +G + GG CI N IG RLRINN G I GGGGGGGG+   +  A     GGGGGRP
+Sbjct  119  WAACAIGASDGGVCIQNDIGGRLRINNGGAIAGGGGGGGGYSQANNWAGKYVCGGGGGRP  178
+
+Query  174  LGAGGVSSLNLNGDNATLGAPGRGYQLGNDYAGNGGDVGN-----PGSASSAEMGGGAAG  228
+             G GG +     G NA+L +PG G   G  Y   GG             +S      + G
+Sbjct  179  FGLGGNNGARWPGGNASLTSPGAGGNTGTRYYAGGGGEVGQPGQYANPGASYSTPPTSPG  238
+
+Query  229  RAVVGTSPQWINVGNIAG  246
+             AV G++P W NVG I G
+Sbjct  239  AAVAGSAPTWQNVGAIYG  256
+
+
+> gi|32453736|ref|NP_861945.1| gp38 distal long tail fiber assembly 
+catalyst [Enterobacteria phage RB69] gi|32350555|gb|AAP76154.1| 
+gp38 distal long tail fiber assembly catalyst [Enterobacteria 
+phage RB69]
+Length=257
+
+ Score =  174 bits (441),  Expect = 6e-42, Method: Composition-based stats.
+ Identities = 111/259 (43%), Positives = 134/259 (52%), Gaps = 12/259 (4%)
+
+Query  1    MAVQGPWVGSSYVAETGQNWASLAANELRVTERPFWISSFIGRSKEEIWEWTGENHSFNK  60
+            MAV+GPWVG S   +TG  W   AA  LR+   PFW+S+ IGRS E I    G +H+FN 
+Sbjct  1    MAVEGPWVGWSARVQTGDPWMGGAAQRLRMGI-PFWMSNMIGRSVEVI-HTLGADHNFNG  58
+
+Query  61   DWLIGELRNRGGTPVVINIRAHQVSYTPGAPLFEFPGDLPNAYITLNIYADIY--GRGGT  118
+             W        G  P+V NI  + VSY+   PLF   GD PN Y+TLNI+  ++  GRGG 
+Sbjct  59   QWFRDRCFEAGSAPIVFNITGNLVSYSKDVPLFFMYGDTPNEYVTLNIHGGVHMWGRGGN  118
+
+Query  119  GGVAYLGGNPGGDCIHNWIGNRLRINNQGWICGGGGGGGGFRVGHTEA----GGGGGRPL  174
+            G V    G  GGD I N IG RLRI N G I  GGGGGG   + ++ A     GGGG   
+Sbjct  119  GTVNGNPGTNGGDVIQNDIGGRLRIWNYGVIASGGGGGGAVSLQNSWAPNATAGGGGGRP  178
+
+Query  175  GAGGVSSLNLNGDNATLGAPGRGYQLGND----YAGNGGDVGNPGSASSAEMGGGAAGRA  230
+               G   +N  G NA+  APG                GG  G+      +  GGGA GRA
+Sbjct  179  FGIGGGGVNWPGGNASYDAPGGAGYTSQFGGGNGGDAGGRGGDGWGNHLSRSGGGAPGRA  238
+
+Query  231  VVGTSPQWINVGNIAGSWL  249
+            V G+SP W   G I GSW+
+Sbjct  239  VFGSSPSWGATGTIYGSWI  257
+
+
+> gi|116326466|ref|YP_803186.1| gp38 [Enterobacteria phage RB32] 
+gi|115344059|gb|ABI95068.1| gp38 [Enterobacteria phage RB32] 
+gi|356690010|gb|AET36517.1| tail fiber adhesin [Enterobacteria 
+phage RB33]
+Length=266
+
+ Score =  174 bits (441),  Expect = 7e-42, Method: Composition-based stats.
+ Identities = 104/265 (40%), Positives = 127/265 (48%), Gaps = 21/265 (7%)
+
+Query  1    MAVQGP--WVGSSYVAETGQNWASLAANELRVTERPFWISSFIGRSKEEIWEWTGENHSF  58
+            MAV G   W+GSS V ETGQ W S AA +LR+   P W+S F GRS+E I    G +H+F
+Sbjct  1    MAVVGVPGWIGSSAVNETGQRWMSQAAGQLRLGV-PCWMSQFAGRSREII-HTLGADHNF  58
+
+Query  59   NKDWLIGELRNRGGTPVVINIRAHQVSYTPGAPLFEFPGDLPNAYITLNIYADIY--GRG  116
+            N  W        G  P+V NI  + VSY+   PLF   GD PN Y+ LNI   ++  GRG
+Sbjct  59   NGQWFRDRCFEAGSAPIVFNITGNLVSYSRDVPLFFMYGDTPNEYVQLNIGGGVHMWGRG  118
+
+Query  117  GTGGVAYL----GGNPGGDCIHNWIGNRLRINN-QGWICGGGGGGGGFRVGHTEA-----  166
+            G GG  +      G  GG CI N IG RLRINN      GGGGGGG     H+ A     
+Sbjct  119  GQGGWTHSGGDGNGQQGGHCIQNDIGGRLRINNGGVICGGGGGGGGIAYRPHSGAKWQDI  178
+
+Query  167  -----GGGGGRPLGAGGVSSLNLNGDNATLGAPGRGYQLGNDYAGNGGDVGNPGSASSAE  221
+                    G    G     + + +G              G D   NG +  + G      
+Sbjct  179  GGGGGRPFGPGGGGGYSGGAASYDGPGGGYNYGNAHSGQGGDAGANGQNAWHDGGKVLKV  238
+
+Query  222  MGGGAAGRAVVGTSPQWINVGNIAG  246
+              GGAAG AV+G++P W NVG I G
+Sbjct  239  GAGGAAGYAVIGSAPTWQNVGVIYG  263
+
+
+> gi|3676461|gb|AAC61977.1| tail fiber adhesin [Enterobacteria 
+phage T6]
+Length=261
+
+ Score =  169 bits (427),  Expect = 3e-40, Method: Composition-based stats.
+ Identities = 110/260 (43%), Positives = 134/260 (52%), Gaps = 16/260 (6%)
+
+Query  1    MAVQGP--WVGSSYVAETGQNWASLAANELRVTERPFWISSFIGRSKEEIWEWTGENHSF  58
+            MAV G   W+GSS V ETGQ W S AA +LR+   P W+S F GRS+E I      NH+F
+Sbjct  1    MAVVGVPGWIGSSSVNETGQRWMSQAAGQLRLGV-PCWMSQFAGRSREII-HTVSANHNF  58
+
+Query  59   NKDWLIGELRNRGGTPVVINIRAHQVSYTPGAPLFEFPGDLPNAYITLNIYADIY-GRGG  117
+            N  W        GG P+V NI    VSY+   PLF   GD PN Y+ LNI+  ++    G
+Sbjct  59   NGQWFRDRCFEAGGAPIVFNIVGDIVSYSKDVPLFFMYGDTPNEYVVLNIHGGVHMWGRG  118
+
+Query  118  TGGVAYLGGNPGGDCIHNWIGNRLR-----INNQGWICGGGGGGGGFRVGHTEAGGGGGR  172
+              G +   G+ GG CI N IG RLR         G   GGGG    F       GGGGGR
+Sbjct  119  GNGGSNSPGSAGGHCIQNDIGGRLRINNGGAIAGGGGGGGGGYYSPFPQMRLTFGGGGGR  178
+
+Query  173  PLGAGGVS-SLNLNGDNATLGAPGRGYQLGNDYAGNGGDVGNP-----GSASSAEMGGGA  226
+            P GA G S ++       T+ +PG G   G    GNGG+VG+           +E  GGA
+Sbjct  179  PFGAPGGSINMQSGATGGTISSPGSGSVNGIYNGGNGGEVGSAGGRCNIRGQGSEYDGGA  238
+
+Query  227  AGRAVVGTSPQWINVGNIAG  246
+            AG AV+G++P W NVG I G
+Sbjct  239  AGYAVIGSAPTWQNVGAIYG  258
+
+
+> gi|138022|sp|P08233.1|VG38_BPOX2 RecName: Full=Receptor-recognizing 
+protein; AltName: Full=Protein Gp38 gi|15126|emb|CAA29158.1| 
+unnamed protein product [Enterobacteria phage Ox2]
+Length=266
+
+ Score =  161 bits (408),  Expect = 4e-38, Method: Composition-based stats.
+ Identities = 100/265 (38%), Positives = 122/265 (47%), Gaps = 21/265 (7%)
+
+Query  1    MAVQGP--WVGSSYVAETGQNWASLAANELRVTERPFWISSFIGRSKEEIWEWTGENHSF  58
+            MAV G   W+GSS V ETGQ W S AA +LR+   P W+S F GRS+E I    G +H+F
+Sbjct  1    MAVVGVPGWIGSSSVNETGQRWMSQAAGQLRLGV-PCWMSQFAGRSREII-HTLGADHNF  58
+
+Query  59   NKDWLIGELRNRGGTPVVINIRAHQVSYTPGAPLFEFPGDLPNAYITLNIYADIY--GRG  116
+            N  W        G  P+V NI    VSY+   PLF   GD PN Y+ LNI+  ++  GRG
+Sbjct  59   NGQWFRDRCFEAGSAPIVFNITGDLVSYSKDVPLFFMYGDTPNEYVVLNIHGGVHMWGRG  118
+
+Query  117  GTGGVAYL----GGNPGGDCIHNWIGNRLRINNQ-GWICGGGGGGGGFRVGHTEA-----  166
+            G GG  +      G  GG  I N IG RLRI N      GGGGGGG     H+ A     
+Sbjct  119  GNGGYTHSGGDGNGTQGGHVIQNDIGGRLRIWNYGVIAAGGGGGGGIAYRPHSGAKWQDI  178
+
+Query  167  -----GGGGGRPLGAGGVSSLNLNGDNATLGAPGRGYQLGNDYAGNGGDVGNPGSASSAE  221
+                    GG   G     + +  G              G +    G +  + G      
+Sbjct  179  GGGGGRPFGGAGGGRYSGGAASYEGPGGGYDYGNAHSGAGGNAGAAGQNAWSDGGKVLKV  238
+
+Query  222  MGGGAAGRAVVGTSPQWINVGNIAG  246
+              GGA+G AV G+SP W  VG I G
+Sbjct  239  GVGGASGHAVFGSSPTWGVVGTIYG  263
+
+
+> gi|161622646|ref|YP_001595373.1| gp38 distal long tail fiber 
+assembly catalyst [Enterobacteria phage JS98] gi|52139852|gb|AAU29224.1| 
+gp38 distal long tail fiber assembly catalyst [Enterobacteria 
+phage JS98]
+Length=262
+
+ Score =  158 bits (400),  Expect = 4e-37, Method: Composition-based stats.
+ Identities = 111/264 (43%), Positives = 134/264 (51%), Gaps = 17/264 (6%)
+
+Query  1    MAVQGP--WVGSSYVAETGQNWASLAANELRVTERPFWISSFIGRSKEEIWEWTGENHSF  58
+            MAV G   W+G+S VAETGQ W + A+ ELR+   P W+S F GRS+E I    G +H+F
+Sbjct  1    MAVVGIPGWIGTSAVAETGQRWMTAASRELRLG-NPSWMSQFAGRSREII-HTLGADHNF  58
+
+Query  59   NKDWLIGELRNRGGTPVVINIRAHQVSYTPGAPLFEFPGDLPNAYITLNIYADIY-GRGG  117
+            N  W        G  P+V NI    VSYT   PLF   GD PN Y+TLNI+  ++    G
+Sbjct  59   NGQWFRDRCFEAGAAPIVFNITGDLVSYTKDVPLFFMYGDTPNEYVTLNIHGGVHMWGRG  118
+
+Query  118  TGGVAY--LGGNPGGDCIHNWIGNRLRINNQGWICGGGGGGGGFRVGHTE-----AGGGG  170
+              G     + G  GGD I N IG RLRI N G I  GGGGG G    ++      AGGGG
+Sbjct  119  GNGGTRVWIAGTNGGDVIQNDIGGRLRIWNYGVIASGGGGGAGCASNNSWLEAGTAGGGG  178
+
+Query  171  GRPLGAGGVSSLNLNGDNATLG-----APGRGYQLGNDYAGNGGDVGNPGSASSAEMGGG  225
+            GRP G GG +   + G NA+           G   G +    GG  G     +      G
+Sbjct  179  GRPYGLGGTNGAVMPGGNASYTGPGGGGSFGGQWGGGNGGDAGGAGGGAYGRNVKYGSQG  238
+
+Query  226  AAGRAVVGTSPQWINVGNIAGSWL  249
+             AGRAV G+SP W   G I GSWL
+Sbjct  239  GAGRAVFGSSPSWGATGTIYGSWL  262
+
+
+> gi|311993250|ref|YP_004010116.1| gp38 distal long tail fiber 
+assembly catalyst [Enterobacteria phage CC31] gi|284178088|gb|ADB81754.1| 
+gp38 distal long tail fiber assembly catalyst 
+[Enterobacteria phage CC31]
+Length=261
+
+ Score =  156 bits (393),  Expect = 3e-36, Method: Composition-based stats.
+ Identities = 91/260 (35%), Positives = 120/260 (47%), Gaps = 14/260 (5%)
+
+Query  1    MAVQGPWVGSSYVAETGQNWASLAANELRVTERPFWISSFIGRSKEEIWEWTGENHSFNK  60
+            MA+ GP +G+S+  ETGQ   S A   +R+  RP      +G SKE  +   G N+S+NK
+Sbjct  1    MAIAGPNIGTSWFRETGQRPMSAARVAVRLPARPGGARQMVGLSKEVNYN-IGANNSYNK  59
+
+Query  61   DWLIGELRNRGGTPVVINIRAHQVSYTPGAPLFEFPGDLPNAYITLNIYADI-YGRGGTG  119
+            D LI  LR++G TPVV+ I  + VSY+ G    EFP +LPNAY+ L I   +     G  
+Sbjct  60   DTLINYLRSQGSTPVVVTITGNLVSYSSGVACLEFPANLPNAYVHLIINGGVTLYGRGGN  119
+
+Query  120  GVAYLGGNPGGDCIHNWIGNRLRIN---NQGWICGGGGGGGGFRVGHTEAGGGGGRPLGA  176
+            G     G  GG  I+N  G RLRI          GGGGG              G      
+Sbjct  120  GGVKGNGAAGGHAINNQFGTRLRITNNGAIAGGGGGGGGNSANGGMGGGGRPFGYADKTH  179
+
+Query  177  GGVSSLNLNGDNATLGAPGRGYQLGNDYA---------GNGGDVGNPGSASSAEMGGGAA  227
+               ++ +    + TL +PG G +     A           G + G          GGG+A
+Sbjct  180  PPAAATSRAATDGTLTSPGIGAEYKIGTAVQYTCGSGGNVGANGGASTGRLGTNYGGGSA  239
+
+Query  228  GRAVVGTSPQWINVGNIAGS  247
+            GRAV+G +P W  VG I GS
+Sbjct  240  GRAVIGNAPTWNKVGTIYGS  259
+
+
+> gi|356689998|gb|AET36511.1| tail fiber adhesin [Enterobacteria 
+phage Mi]
+Length=263
+
+ Score =  155 bits (392),  Expect = 3e-36, Method: Composition-based stats.
+ Identities = 118/262 (46%), Positives = 139/262 (54%), Gaps = 18/262 (6%)
+
+Query  1    MAVQGP--WVGSSYVAETGQNWASLAANELRVTERPFWISSFIGRSKEEIWEWTGENHSF  58
+            MAV G   W+GSS   ETGQ W S AA +LR+   P W+S F GRS+E I    G +H+F
+Sbjct  1    MAVVGVPGWIGSSAANETGQRWMSQAAGQLRLGV-PCWMSQFAGRSREII-HTLGADHNF  58
+
+Query  59   NKDWLIGELRNRGGTPVVINIRAHQVSYTPGAPLFEFPGDLPNAYITLNIYADIYGRGGT  118
+            N  W        G  P+V NI    VSY+   PLF   GD PN Y+ LNI+       G 
+Sbjct  59   NGQWFRDRCFEAGSAPIVFNITGDLVSYSKDVPLFFMYGDTPNEYVQLNIHGVTMYGRGG  118
+
+Query  119  GGVAYLGGNPGGDCIHNWIGNRLRINNQGWICGGGGGGGGFR------VGHTEAGGGGGR  172
+             G +   G+ GG CI N IG RLRINN G I GGGGGGGG           +  GGGGGR
+Sbjct  119  NGGSNSPGSAGGHCIQNNIGGRLRINNGGAIAGGGGGGGGGYWNAGITRYRSVVGGGGGR  178
+
+Query  173  PLGAGGVSSLNLNGDNATLGAPGRGYQLGND-YAGNGGDVGNP-------GSASSAEMGG  224
+            P GA G  S        TL   G G + GN  Y GNGG+VG+          +  A  GG
+Sbjct  179  PFGAAGGYSGGSASTAGTLTGAGIGSKPGNAIYGGNGGNVGSAGGACGGISGSRYARYGG  238
+
+Query  225  GAAGRAVVGTSPQWINVGNIAG  246
+            GAAG AV+G++P W NVG I G
+Sbjct  239  GAAGYAVIGSAPTWQNVGAIYG  260
+
+
+> gi|138023|sp|P07875.1|VG38_BPT2 RecName: Full=Receptor-recognizing 
+protein; AltName: Full=Protein Gp38 gi|15198|emb|CAA28935.1| 
+unnamed protein product [Enterobacteria phage T2]
+Length=262
+
+ Score =  152 bits (384),  Expect = 3e-35, Method: Composition-based stats.
+ Identities = 107/262 (41%), Positives = 133/262 (51%), Gaps = 17/262 (6%)
+
+Query  1    MAVQGP--WVGSSYVAETGQNWASLAANELRVTERPFWISSFIGRSKEEIWEWTGENHSF  58
+            MA+ G   W+G S V ETGQ W   A   + V+  P W+SS  G+SKE I+   G NH++
+Sbjct  1    MAIVGVPGWIGESAVNETGQRWMDAAMRAVHVSV-PGWMSSMAGQSKE-IYLSIGANHNY  58
+
+Query  59   NKDWLIGELRNRGGTPVVINIRAHQVSYTPGAPLFEFPGDLPNAYITLNIYAD--IYGRG  116
+            +++ LI  +R +GG PVVI I    VS + G    EFP DLPNAYI L I +   +YGRG
+Sbjct  59   DRNSLINWMRAQGGAPVVITITGDLVSNSTGNACLEFPSDLPNAYIQLIINSGVTVYGRG  118
+
+Query  117  GTGGVAYLGGNPGGDCIHNWIGNRLRINNQGWICGGGGGGGGFRVGHTE-------AGGG  169
+            G G      G  GG  IHN  G +LRI N G I GGGGGGG   + ++         GGG
+Sbjct  119  GNGSTNSSAGGNGGTAIHNAAGTKLRIRNNGAIAGGGGGGGAASLKNSYPTNGSCGGGGG  178
+
+Query  170  GGRPLGAGGVSSLNLNGDNATLGAPGRGYQLGND----YAGNGGDVGNPGSASSAEMGGG  225
+                +G    S   L+G NA+L   G G              G   G     +     GG
+Sbjct  179  RPFGVGGKIGSDSILSGSNASLTDAGTGGTTFQYGAGNGGNVGAGGGRGWGKNVYTSEGG  238
+
+Query  226  AAGRAVVGTSPQWINVGNIAGS  247
+            AAG AV G +P W NVG I GS
+Sbjct  239  AAGAAVTGNAPNWQNVGTIYGS  260
+
+
+> gi|138020|sp|P07876.1|VG38_BPK3 RecName: Full=Receptor-recognizing 
+protein; AltName: Full=Protein Gp38 gi|15113|emb|CAA29074.1| 
+unnamed protein product [Enterobacteria phage K3]
+Length=260
+
+ Score =  151 bits (381),  Expect = 6e-35, Method: Composition-based stats.
+ Identities = 110/260 (43%), Positives = 139/260 (54%), Gaps = 15/260 (5%)
+
+Query  1    MAVQGP--WVGSSYVAETGQNWASLAANELRVTERPFWISSFIGRSKEEIWEWTGENHSF  58
+            MA+ G   W+G S V ETGQ W   A  E+RV+  P W+SS  G+SKE I    G ++S+
+Sbjct  1    MAIVGVPGWIGESAVNETGQRWMDAAMREVRVSV-PGWMSSMAGQSKE-IHYSIGASNSY  58
+
+Query  59   NKDWLIGELRNRGGTPVVINIRAHQVSYTPGAPLFEFPGDLPNAYITLNIYADI-YGRGG  117
+            NKD LI  ++ +G TPVVI I  + VS + G P  +FP  L NAY+TL I + +     G
+Sbjct  59   NKDTLINWIKAQGSTPVVITITGNIVSQSTGVPCLDFPSSLTNAYVTLIINSGVTVYGRG  118
+
+Query  118  TGGVAYLGGNPGGDCIHNWIGNRLRINNQGWICGGGGGGGGFRVGHT-EAGGGGGRPLGA  176
+              G +   G  GG+ I+N IG RLRI N G I GGGGGGGG   G     GGGG      
+Sbjct  119  GNGGSNAAGAAGGNAINNGIGTRLRITNNGAIAGGGGGGGGGNRGKLIFGGGGGRPFGAG  178
+
+Query  177  GGVSSLNLNGDNATLGAPGRGY----QLGNDYAGNGGDVGNP-----GSASSAEMGGGAA  227
+            G  S ++      T+ APG+G      L     G GG+VG          +  E  GGAA
+Sbjct  179  GSSSHMSSGATAGTISAPGKGSVGEGSLSAYTGGAGGNVGAAGGRCNTQGNGTEYNGGAA  238
+
+Query  228  GRAVVGTSPQWINVGNIAGS  247
+            G+AV G +P W  VG I GS
+Sbjct  239  GKAVTGNAPTWTKVGTIYGS  258
+
+
+> gi|339791446|gb|AEK12503.1| distal long tail fiber assembly catalyst 
+[Enterobacteria phage ime09]
+Length=264
+
+ Score =  149 bits (376),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 100/264 (38%), Positives = 133/264 (51%), Gaps = 19/264 (7%)
+
+Query  1    MAVQGP--WVGSSYVAETGQNWASLAANELRVTERPFWISSFIGRSKEEIWEWTGENHSF  58
+            MA+ G   W+G S V ETGQ W   A   +RV+  P W+SS  G+SKE ++   G ++S+
+Sbjct  1    MAIVGVPGWIGESAVNETGQRWMDAAMRAVRVSV-PGWMSSMAGQSKE-VYYSIGASNSY  58
+
+Query  59   NKDWLIGELRNRGGTPVVINIRAHQVSYTPGAPLFEFPGDLPNAYITLNIYADI---YGR  115
+            NKD LI  L+++G TPVV+ I  + VS + G P  +FP  L NAY+TL I   +      
+Sbjct  59   NKDTLINYLKSQGSTPVVVTITGNLVSSSAGQPCLDFPSSLTNAYVTLIINGGVTVYGRG  118
+
+Query  116  GGTGGVAYLGGNPGGDCIHNWIGNRLRINNQ-----GWICGGGGGGGGFRVGHTEAGGGG  170
+            G         G  GG  I+N IG RLRI N      G   GG         G   +GGGG
+Sbjct  119  GRGAQAGNQAGEAGGTAINNGIGTRLRITNNGAIAGGGGGGGAQSTDNGWGGKYVSGGGG  178
+
+Query  171  GRPLGAGGVSSLNLNGDNATLGAPGRGYQLGNDYAGNGG-------DVGNPGSASSAEMG  223
+            GRP GAGG +     G +A+L +PG G ++ +     GG          +    +     
+Sbjct  179  GRPFGAGGNNGAKAPGASASLTSPGAGGKMYSGVGYYGGDGGNVGERGKDAVRLNGYSNS  238
+
+Query  224  GGAAGRAVVGTSPQWINVGNIAGS  247
+             GAAG+AV G +P W  VG I GS
+Sbjct  239  PGAAGKAVTGNAPTWTKVGTIYGS  262
+
+
+> gi|33620655|ref|NP_891650.1| distal long tail fiber assembly 
+catalyst [Enterobacteria phage RB49] gi|30144321|gb|AAL15128.2| 
+distal long tail fiber assembly catalyst [Enterobacteria 
+phage RB49]
+Length=258
+
+ Score =  143 bits (360),  Expect = 2e-32, Method: Composition-based stats.
+ Identities = 107/258 (42%), Positives = 142/258 (56%), Gaps = 13/258 (5%)
+
+Query  1    MAVQGPWVGSSYVAETGQNWASLAANELRVTERPFWISSFIGRSKEEIWEWTGENHSFNK  60
+            MA++  WVGSS V+ETGQ W S A   +R+  RP ++S+ +GRSKE I    G ++S+NK
+Sbjct  1    MAIKAGWVGSSAVSETGQRWMSAAMQAVRLG-RPAYMSAMVGRSKE-IHYSIGASNSYNK  58
+
+Query  61   DWLIGELRNRGGTPVVINIRAHQVSYTPGAPLFEFPGDLPNAYITLNIYADI-YGRGGTG  119
+            D LI  ++ +G TPVVI I  + VS + G P  +FP  L N Y+TL I + +     G  
+Sbjct  59   DTLINWMKAQGSTPVVITITGNIVSQSTGVPCLDFPSSLTNEYVTLIINSGVTVYGRGGN  118
+
+Query  120  GVAYLGGNPGGDCIHNWIGNRLRINNQGWICGGGGGGGGFRVGHTEA-GGGGGRPLGAGG  178
+            G +   G  GG+ I+N IG RLRI N G I GGGGGGGG   G     GGGG      G 
+Sbjct  119  GGSNAAGAAGGNAINNAIGTRLRITNNGAIAGGGGGGGGGNRGRLVFGGGGGRPFGAGGS  178
+
+Query  179  VSSLNLNGDNATLGAPGRGY----QLGNDYAGNGGDVGNP-----GSASSAEMGGGAAGR  229
+             S++       ++ APG+G      L     G GG+VG          +  E  GGAAG+
+Sbjct  179  SSNMGSGATAGSISAPGKGSVGEGSLSAYTGGAGGNVGAAGGRCNTQGNGTEYNGGAAGK  238
+
+Query  230  AVVGTSPQWINVGNIAGS  247
+            AV G +P+W  VG I G+
+Sbjct  239  AVTGNAPRWDKVGTIYGA  256
+
+
+> gi|330858766|ref|YP_004415141.1| putative receptor-recognizing 
+protein [Shigella phage Shfl2] gi|327397700|gb|AEA73202.1| 
+putative receptor-recognizing protein [Shigella phage Shfl2]
+Length=263
+
+ Score =  143 bits (360),  Expect = 2e-32, Method: Composition-based stats.
+ Identities = 109/263 (42%), Positives = 139/263 (53%), Gaps = 18/263 (6%)
+
+Query  1    MAVQGP--WVGSSYVAETGQNWASLAANELRVTERPFWISSFIGRSKEEIWEWTGENHSF  58
+            MA+ G   W+G S V ETGQ W   A   +RV+  P W+SS  G+SKE ++   G ++S+
+Sbjct  1    MAIVGVPGWIGESAVNETGQRWMDAAMRAVRVSV-PGWMSSMAGQSKE-VYYSVGASNSY  58
+
+Query  59   NKDWLIGELRNRGGTPVVINIRAHQVSYTPGAPLFEFPGDLPNAYITLNIYADIY-GRGG  117
+            NKD LI  ++ +G TPVVI I  + VS + G P  +FP  L NAY+TLNI + ++    G
+Sbjct  59   NKDTLINWIKAQGSTPVVITITGNIVSQSTGVPCLDFPSSLTNAYVTLNINSGVHVLGRG  118
+
+Query  118  TGGVAYLGGNPGGDCIHNWIGNRLRINNQGWICGGGGGGGGFRVGHT------EAGGGGG  171
+              G +   G  GG  I+N IG RLRINN G I GGGGGG G R            GGGG 
+Sbjct  119  GNGGSNSAGGAGGTAINNGIGTRLRINNNGIIGGGGGGGAGARYNPFPQMDMKFGGGGGR  178
+
+Query  172  RPLGAGGVSSLNLNGDNATLGAPGRGYQLGNDYAGNGGDVGNP-------GSASSAEMGG  224
+                AG            T+ APG+G   G  + G+GGD+G         G        G
+Sbjct  179  PFGAAGAAGGGAAAASAGTISAPGKGTVSGVHHGGDGGDLGAAGKSSYIQGGTGGTVHSG  238
+
+Query  225  GAAGRAVVGTSPQWINVGNIAGS  247
+            GAAG+AV G +P W  VG I GS
+Sbjct  239  GAAGKAVTGNAPTWTKVGTIYGS  261
+
+
+> gi|299779192|ref|YP_003734386.1| 38 gene product [Enterobacteria 
+phage IME08] gi|298105921|gb|ADI55565.1| gp38 distal long 
+tail fiber adhesin [Enterobacteria phage IME08]
+Length=263
+
+ Score =  137 bits (346),  Expect = 8e-31, Method: Composition-based stats.
+ Identities = 106/262 (41%), Positives = 131/262 (50%), Gaps = 17/262 (6%)
+
+Query  1    MAVQGP--WVGSSYVAETGQNWASLAANELRVTERPFWISSFIGRSKEEIWEWTGENHSF  58
+            MA+ G   WVG S V ETGQ W   A  ++RV   P W+ S   +SKE I+   G NH++
+Sbjct  2    MAIVGLPGWVGQSAVDETGQRWMDAAMRDVRVAV-PGWMGSMANQSKE-IYYSIGANHNY  59
+
+Query  59   NKDWLIGELRNRGGTPVVINIRAHQVSYTPGAPLFEFPGDLPNAYITLNIYAD--IYGRG  116
+            +K+ LI  +R +GG PVVI I  + VS + G    EFP DLPNAYI L I +   +YGRG
+Sbjct  60   DKNTLINWMRAQGGAPVVITITGNIVSNSTGNACLEFPSDLPNAYIQLTINSGVTVYGRG  119
+
+Query  117  GTGGVAYLGGNPGGDCIHNWIGNRLRINNQGWICGGGGGGGGFRVGHTE-------AGGG  169
+            G G      G  GG  I N  G +LRI N G I GGGGGGG   + ++         GGG
+Sbjct  120  GNGSTNGSAGGNGGVAIRNSAGTKLRIRNNGAIAGGGGGGGAVSLQNSYPTNGTCGGGGG  179
+
+Query  170  GGRPLGAGGVSSLNLNGDNATLGAPGRGYQLGND----YAGNGGDVGNPGSASSAEMGGG  225
+                 G    S   L+G NA+L   G G              G   G     +     GG
+Sbjct  180  RPFGNGGKIGSDAILSGANASLTGAGSGGTTVQYGAGNGGNVGAAGGRGWGKNVYTSAGG  239
+
+Query  226  AAGRAVVGTSPQWINVGNIAGS  247
+            +AG AV G +P W NVG I GS
+Sbjct  240  SAGAAVTGNAPSWQNVGTIYGS  261
+
+
+> gi|323934265|gb|EGB30689.1| phage tail fibre adhesin Gp38 [Escherichia 
+coli E1520]
+Length=260
+
+ Score =  129 bits (325),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 104/260 (40%), Positives = 136/260 (53%), Gaps = 15/260 (5%)
+
+Query  1    MAVQGP--WVGSSYVAETGQNWASLAANELRVTERPFWISSFIGRSKEEIWEWTGENHSF  58
+            M + G   W+GSS V+ TGQ W S A   ++++     +S   GRSKE I    G NH++
+Sbjct  1    MPIVGVPGWIGSSAVSVTGQRWMSAARTAVQLSAAGN-MSQLAGRSKE-IHYSIGANHNY  58
+
+Query  59   NKDWLIGELRNRGGTPVVINIRAHQVSYTPGAPLFEFPGDLPNAYITLNIYADI-YGRGG  117
+            NKD LI  L+++G TPVV+ I    VS + G P  +FP  L N+YI+L I A +     G
+Sbjct  59   NKDTLINYLKSQGATPVVVTITGDLVSSSSGVPCLDFPSSLTNSYISLVINAGVTVYGRG  118
+
+Query  118  TGGVAYLGGNPGGDCIHNWIGNRLRINNQGWICGGGGGGGGFRVGHT-EAGGGGGRPLGA  176
+              G +   G  GG+ I+N IG RLRI N G I GGGGGGGG   G     GGGG      
+Sbjct  119  GNGGSNAAGAAGGNAINNGIGTRLRITNNGAIAGGGGGGGGGNRGKLIFGGGGGRPFGAG  178
+
+Query  177  GGVSSLNLNGDNATLGAPGRGY----QLGNDYAGNGGDVGNP-----GSASSAEMGGGAA  227
+            G  S ++      T+ APG+G      L     G+GG+VG          +  E  GGAA
+Sbjct  179  GSSSHMSSGATAGTISAPGKGSVGEGSLSAYTGGSGGNVGAAGGRCNTQGNGTEYNGGAA  238
+
+Query  228  GRAVVGTSPQWINVGNIAGS  247
+            G+AV G +P W   G I G+
+Sbjct  239  GKAVTGNAPTWTKAGAIYGA  258
+
+
+> gi|294661658|ref|YP_003580111.1| gp38 distal long tail fiber 
+assembly catalyst [Klebsiella phage KP15] gi|292660819|gb|ADE35067.1| 
+gp38 distal long tail fiber assembly catalyst [Klebsiella 
+phage KP15]
+Length=175
+
+ Score = 82.8 bits (203),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 31/83 (38%), Positives = 41/83 (50%), Gaps = 1/83 (1%)
+
+Query  1   MAVQGPWVGSSYVAETGQNWASLAANELRVTERPFWISSFIGRSKEEIWEWTGENHSFNK  60
+           MAV GPWVGSS  AETG+ W   A  +LR+   PFW+S+ IG+S   +          + 
+Sbjct  1   MAVTGPWVGSSAKAETGEAWMVQAGAKLRIGT-PFWMSNMIGQSVFHLIFRINYAQGSSG  59
+
+Query  61  DWLIGELRNRGGTPVVINIRAHQ  83
+           D        + G  V I   A+Q
+Sbjct  60  DPSRYRGFFKRGLSVNIGDSANQ  82
+
+
+
+Lambda     K      H
+   0.310    0.132    0.380 
+
+Gapped
+Lambda     K      H
+   0.267   0.0409    0.140 
+
+Effective search space used: 242230656192
+
+Search has CONVERGED!
+
+
+  Database: nr90
+    Posted date:  Jan 24, 2012  1:04 PM
+  Number of letters in database: 3,383,841,944
+  Number of sequences in database:  9,741,704
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
