@@ -45,13 +45,6 @@ def load_pdb_file(file):
 		result = np.column_stack((p,x,y,z))
 	return result
 
-def create_matrix(coords):
-	d = np.ndarray((coords.shape[0],coords.shape[0]))
-	for i in range(coords.shape[0]):
-		x = np.linalg.norm(coords[:i+1,1:].astype(np.float)-coords[i,1:].astype(np.float),axis=1)
-		d[i,:i+1] = x
-	d = d.T
-
 def create_RR(coords):
 	temp = []
 	for i in range(coords.shape[0]):
