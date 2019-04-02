@@ -22,7 +22,7 @@ def splitted_sequence(sequence):
 	s = [sequence[i:i+50] for i in range(0,len(sequence),50)]
 	return s
 
-def load_pdb_file(file):
+def load_pdb_file(file,sequence):
 	c,p,x,y,z = [],[],[],[],[]
 	fp = open(file,'r')
 	for line in fp:
@@ -31,26 +31,38 @@ def load_pdb_file(file):
 				if line[12:16].strip()=='CA':
 					c.append(line[21])
 					p.append(line[22:26].replace(' ',''))
-					x.append(float(line[30:38]))
-					y.append(float(line[38:46]))
-					z.append(float(line[46:54]))
+					x.append(line[30:38])
+					y.append(line[38:46])
+					z.append(line[46:54])
 			else:
 				if line[12:16].strip()=='CB':
 					c.append(line[21])
 					p.append(line[22:26].replace(' ',''))
-					x.append(float(line[30:38]))
-					y.append(float(line[38:46]))
-					z.append(float(line[46:54]))
+					x.append(line[30:38])
+					y.append(line[38:46])
+					z.append(line[46:54])
 	fp.close()
+	result = np.full((len(sequence),4),'999')
 	if len(set(c))>1:
-		# indices = np.core.defchararray.add(c,p)
-		s = sorted(set(c)):
-		l = len([k for k in c if k==s[0]])
-		result = np.column_stack((p[0:l],x[0:l],y[0:l],z[0:l]))
+		results = []
+		temp1 = np.column_stack((p,x,y,z))
+		for chain in sorted(set(c)):
+			temp2 = temp1[np.where(np.array(c)==chain)]
+			for i in temp2:
+				result[int(i[0])-1] = i
+			results.append(result)
+			result = np.full((len(sequence),4),'999')
+		return np.array(results) # return one array per chain.
 	else:
-		result = np.column_stack((p,x,y,z))
+		for i in range(len(p)):
+			result[int(p[i])-1] = (p[i],x[i],y[i],z[i]) 
+		return result
 
 def load_RR(file,splitted_sequence):
+	'''
+	Open an .rr file following the CASP RR format, and return its 
+	listed contact pairs and probabilities.
+	'''
 	start = 0
 	temp = []
 	fp = open(file,'r')
@@ -67,11 +79,18 @@ def load_RR(file,splitted_sequence):
 	return c
 
 def distance_matrix(coords):
+	'''
+	Create a distance matrix for a native structure's
+	coordinates (previously retrieved from its PDB file).
+	'''
 	# d = np.ndarray((coords.shape[0],coords.shape[0]))
-	d = np.ndarray((coords[-1,0],coords[-1,0]))
+	d = np.ndarray((coords.shape[0],coords.shape[0]))
 	for i in range(coords.shape[0]):
-		x = np.linalg.norm(coords[:i+1,1:].astype(np.float)-coords[i,1:].astype(np.float),axis=1)
-		d[coords[i,0],:coords[i+1,0]] = x
+		x = np.linalg.norm(
+			coords[:i+1,1:].astype(np.float)-
+			coords[i,1:].astype(np.float),axis=1
+			)
+		d[i,:i+1] = x
 	dt = d.T
 	d = dt + d
 	for j in range(0,d.shape[0]):
@@ -84,11 +103,14 @@ def distance_matrix(coords):
 	return (d < 8.0)
 
 def precision(TP,FP):
+	'''
+	Same as accuracy in older CASP.
+	'''
 	return TP/(TP+FP)
 
 def recall(TP,FN):
 	'''
-	Same as coverage, TP+FN = D True
+	Same as coverage since TP+FN = D True
 	'''
 	return TP/(TP+FN)
 
@@ -135,16 +157,19 @@ def main():
 	sseq1 = splitted_sequence(seq1)
 	sseq2 = splitted_sequence(seq2)
 
-	RR1 = load_RR('../contact_maps/predicted/CMAPro/T0951.rr.txt',sseq1)
-	RR2 = load_RR('../contact_maps/predicted/CMAPro/T0866.rr.txt',sseq2)
+	RR1 = load_RR('../contact_maps/predicted/CMApro/T0951.rr',sseq1)
+	RR2 = load_RR('../contact_maps/predicted/CMApro/T0866.rr',sseq2)
 
-	pdb1 = load_pdb_file('../pdb/native/T0951_easy/5z82.pdb')
-	pdb2 = load_pdb_file('../pdb/native/T0866/5uw2.pdb')
+	pdb1 = load_pdb_file('../pdb/native/T0951_easy/5z82.pdb',seq1)
+	pdb2 = load_pdb_file('../pdb/native/T0866/5uw2.pdb',seq2)
+
+	print(pdb1.shape)
+	print(pdb2.shape)
 
 	D1 = distance_matrix(pdb1)
-	D2 = distance_matrix(pdb2)
+	# D2 = distance_matrix(pdb2)
 
-	evaluate_RR_file(RR1,D1)
+	# evaluate_RR_file(RR1,D1)
 
 if __name__ == '__main__':
 	main()
