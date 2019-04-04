@@ -65,6 +65,8 @@ def load_RR(file,splitted_sequence):
 	Open an .rr file following the CASP RR format, and return its 
 	listed contact pairs and probabilities.
 	'''
+	headers = {'PFRMAT','TARGET','AUTHOR','METHOD','MODEL ',
+				'REMARK','FRMAT ','SEQRES'}
 	start = 0
 	temp = []
 	fp = open(file,'r')
@@ -72,7 +74,7 @@ def load_RR(file,splitted_sequence):
 		l = line.rstrip()
 		if l!='':
 			if l[0:3]!='END':
-				if l[0:6] not in {'PFRMAT','TARGET','AUTHOR','METHOD','MODEL ','REMARK','FRMAT ','SEQRES'}:
+				if l[0:6] not in headers:
 					if l not in set(splitted_sequence):
 						s = l.split()
 						if s[0] == 'CONTC':
@@ -226,14 +228,6 @@ def evaluate_RR_file(RR,D,coords,seq):
 	i = [i_top_5,i_l_10,i_l_5,i_l_2,i_top_l,i_top_2l]
 	return p,r,f,i
 
-# def plots():
-# 	subsets   = ['Top-5','L/10','L/5','L/2','L','2L']
-# 	models    = ['CMApro','RaptorX','SVMcon','DCON2']
-# 	fig,ax = plt.subplots()
-# 	lines = ax.plot(names,precision)
-# 	ax.legend()
-# 	plt.savefig('../contact_maps/method_comparison.png')
-
 #####################################################################
 # MAIN
 #####################################################################
@@ -262,9 +256,30 @@ def main():
 	RR1_SVMcon = load_RR('../contact_maps/predicted/SVMcon/T0951.rr',sseq1)
 	RR2_SVMcon = load_RR('../contact_maps/predicted/SVMcon/T0866.rr',sseq2)
 	RR1_DNCON2 = load_RR('../contact_maps/predicted/DNCON2Contacts/T0951/T0951.dncon2.rr',sseq1)
-	RR1_coneva = load_RR('../contact_maps/true/coneva/T0951.RR',sseq1)
-	RR1_TRUE   = load_RR('../contact_maps/true/own/T0951_easy.rr',sseq1)
+	RR1_NeBcon = load_RR('../contact_maps/predicted/NeBcon/T0951.rr',sseq1)
+	RR2_NeBcon = load_RR('../contact_maps/predicted/NeBcon/T0866.rr',sseq2)
 
+	# RR1_coneva = load_RR('../contact_maps/true/coneva/T0951.RR',sseq1)
+	# RR1_TRUE   = load_RR('../contact_maps/true/own/T0951_easy.rr',sseq1)
+
+
+	new_seq1 = list('-'*len(seq1))
+	for i in pdb1:
+		new_seq1[int(i[0])] = seq1[int(i[0])]
+
+	print('\n'.join(sseq1),'\n')
+	print('\n'.join(splitted_sequence(''.join(new_seq1))),'\n')
+
+	new_seq2 = list('-'*len(seq2))
+	for i in pdb2_a:
+		new_seq2[int(i[0])] = seq2[int(i[0])]
+	print('\n'.join(sseq2),'\n')
+	print('\n'.join(splitted_sequence(''.join(new_seq2))),'\n')
+
+
+	#################################################################
+	# T0866
+	#################################################################
 	precision,recall,fscores,impr = [],[],[],[]
 
 	print("====================================================================")
@@ -304,50 +319,116 @@ def main():
 	impr.append(i)
 
 	print("====================================================================")
-	print(" Results for ConEVA -- TARGET: T0951")
+	print(" Results for NeBcon -- TARGET: T0951")
 	print("====================================================================")
-	p,r,f,i = evaluate_RR_file(RR1_coneva,D1,pdb1,seq1)
+	p,r,f,i = evaluate_RR_file(RR1_NeBcon,D1,pdb1,seq1)
 	precision.append(p)
 	recall.append(r)
 	fscores.append(f)
 	impr.append(i)
 
-	print("====================================================================")
-	print(" Results for TRUE -- TARGET: T0951")
-	print("====================================================================")
-	p,r,f,i = evaluate_RR_file(RR1_TRUE,D1,pdb1,seq1)
-	precision.append(p)
-	recall.append(r)
-	fscores.append(f)
-	impr.append(i)
 
+	# print("====================================================================")
+	# print(" Results for ConEVA -- TARGET: T0951")
+	# print("====================================================================")
+	# p,r,f,i = evaluate_RR_file(RR1_coneva,D1,pdb1,seq1)
+	# precision.append(p)
+	# recall.append(r)
+	# fscores.append(f)
+	# impr.append(i)
+
+	# print("====================================================================")
+	# print(" Results for TRUE -- TARGET: T0951")
+	# print("====================================================================")
+	# p,r,f,i = evaluate_RR_file(RR1_TRUE,D1,pdb1,seq1)
+	# precision.append(p)
+	# recall.append(r)
+	# fscores.append(f)
+	# impr.append(i)
+
+	# PLOT RESULTS ACROSS MODELS AND 'L' SUBSETS
+	# PRECISION, COVERAGE, F-SCORE, IMPROVEMENT OVER R
 	subsets   = ['Top-5','L/10','L/5','L/2','L','2L']
-	models    = ['CMApro','RaptorX','SVMcon','DCON2','ConEVA','TRUE']
+	models    = ['CMApro','RaptorX','SVMcon','DCON2','NeBcon']
 	for i in range(len(models)):
 		plt.plot(subsets,precision[i],label=models[i])
 	plt.legend()
-	plt.savefig('../contact_maps/precision.png')
+	plt.savefig('../report/images/T0951_precision.png')
 
 	plt.figure()
 	for i in range(len(models)):
 		plt.plot(subsets,recall[i],label=models[i])
 	plt.legend()
-	plt.savefig('../contact_maps/coverage.png')
+	plt.savefig('../report/images/T0951_coverage.png')
 
-	# print("====================================================================")
-	# print(" Results for CMAPro -- TARGET: T0866")
-	# print("====================================================================")
-	# evaluate_RR_file(RR2_CMA,D2A,pdb2_a,seq2)
+	# plt.figure()
+	# for i in range(len(models)):
+	# 	plt.plot(subsets,fscores[i],label=models[i])
+	# plt.legend()
+	# plt.savefig('../report/images/fscores.png')
 
-	# print("====================================================================")
-	# print(" Results for RaptorX -- TARGET: T0951")
-	# print("====================================================================")
-	# evaluate_RR_file(RR2_Raptor,D2A,pdb2_a,seq2)
+	# plt.figure()
+	# for i in range(len(models)):
+	# 	plt.plot(subsets,impr[i],label=models[i])
+	# plt.legend()
 
-	# print("====================================================================")
-	# print(" Results for SVMcon -- TARGET: T0951")
-	# print("====================================================================")
-	# evaluate_RR_file(RR2_SVMcon,D2A,pdb2_a,seq2)
+	#################################################################
+	# T0866
+	#################################################################
+	precision,recall,fscores,impr = [],[],[],[]
+
+	print("====================================================================")
+	print(" Results for CMAPro -- TARGET: T0866")
+	print("====================================================================")
+	p,r,f,i = evaluate_RR_file(RR2_CMA,D2A,pdb2_a,seq2)
+	precision.append(p)
+	recall.append(r)
+	fscores.append(f)
+	impr.append(i)
+
+	print("====================================================================")
+	print(" Results for RaptorX -- TARGET: T0866")
+	print("====================================================================")
+	p,r,f,i = evaluate_RR_file(RR2_Raptor,D2A,pdb2_a,seq2)
+	precision.append(p)
+	recall.append(r)
+	fscores.append(f)
+	impr.append(i)
+
+	print("====================================================================")
+	print(" Results for SVMcon -- TARGET: T0866")
+	print("====================================================================")
+	p,r,f,i = evaluate_RR_file(RR2_SVMcon,D2A,pdb2_a,seq2)
+	precision.append(p)
+	recall.append(r)
+	fscores.append(f)
+	impr.append(i)
+
+
+	# PLOT RESULTS ACROSS MODELS AND 'L' SUBSETS
+	# PRECISION, COVERAGE, F-SCORE, IMPROVEMENT OVER R
+	models    = ['CMApro','RaptorX','SVMcon']
+	plt.figure()
+	for i in range(len(models)):
+		plt.plot(subsets,precision[i],label=models[i])
+	plt.legend()
+	plt.savefig('../report/images/T0866_precision.png')
+
+	plt.figure()
+	for i in range(len(models)):
+		plt.plot(subsets,recall[i],label=models[i])
+	plt.legend()
+	plt.savefig('../report/images/T0866_coverage.png')
+
+	# plt.figure()
+	# for i in range(len(models)):
+	# 	plt.plot(subsets,fscores[i],label=models[i])
+	# plt.legend()
+
+	# plt.figure()
+	# for i in range(len(models)):
+	# 	plt.plot(subsets,impr[i],label=models[i])
+	# plt.legend()
 
 
 if __name__ == '__main__':
