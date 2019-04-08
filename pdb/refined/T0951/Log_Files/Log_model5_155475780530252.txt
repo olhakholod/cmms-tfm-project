@@ -1,0 +1,695 @@
+Adding missing hydrogen atoms...
+=-=->  parameters /var/www/cgi-bin/3Drefine/software/3Drefine/parameters
+Loading parameters from /var/www/cgi-bin/3Drefine/software/3Drefine/parameters/meshiPotential/bondEnergyParameters.dat
+=-=->  parameters /var/www/cgi-bin/3Drefine/software/3Drefine/parameters
+Loading parameters from /var/www/cgi-bin/3Drefine/software/3Drefine/parameters/meshiPotential/angleEnergyParameters.dat
+assignRandomCaCoordinates to GLY_1 nothing to do
+assignRandomCaCoordinates to PRO_2 nothing to do
+assignRandomCaCoordinates to LEU_3 nothing to do
+assignRandomCaCoordinates to GLY_4 nothing to do
+assignRandomCaCoordinates to SER_5 nothing to do
+assignRandomCaCoordinates to MET_6 nothing to do
+assignRandomCaCoordinates to SER_7 nothing to do
+assignRandomCaCoordinates to SER_8 nothing to do
+assignRandomCaCoordinates to ILE_9 nothing to do
+assignRandomCaCoordinates to GLY_10 nothing to do
+assignRandomCaCoordinates to LEU_11 nothing to do
+assignRandomCaCoordinates to ALA_12 nothing to do
+assignRandomCaCoordinates to HIS_13 nothing to do
+assignRandomCaCoordinates to ASN_14 nothing to do
+assignRandomCaCoordinates to VAL_15 nothing to do
+assignRandomCaCoordinates to THR_16 nothing to do
+assignRandomCaCoordinates to ILE_17 nothing to do
+assignRandomCaCoordinates to LEU_18 nothing to do
+assignRandomCaCoordinates to GLY_19 nothing to do
+assignRandomCaCoordinates to SER_20 nothing to do
+assignRandomCaCoordinates to GLY_21 nothing to do
+assignRandomCaCoordinates to GLU_22 nothing to do
+assignRandomCaCoordinates to THR_23 nothing to do
+assignRandomCaCoordinates to THR_24 nothing to do
+assignRandomCaCoordinates to VAL_25 nothing to do
+assignRandomCaCoordinates to VAL_26 nothing to do
+assignRandomCaCoordinates to LEU_27 nothing to do
+assignRandomCaCoordinates to GLY_28 nothing to do
+assignRandomCaCoordinates to HIS_29 nothing to do
+assignRandomCaCoordinates to GLY_30 nothing to do
+assignRandomCaCoordinates to TYR_31 nothing to do
+assignRandomCaCoordinates to GLY_32 nothing to do
+assignRandomCaCoordinates to THR_33 nothing to do
+assignRandomCaCoordinates to ASP_34 nothing to do
+assignRandomCaCoordinates to GLN_35 nothing to do
+assignRandomCaCoordinates to SER_36 nothing to do
+assignRandomCaCoordinates to VAL_37 nothing to do
+assignRandomCaCoordinates to TRP_38 nothing to do
+assignRandomCaCoordinates to LYS_39 nothing to do
+assignRandomCaCoordinates to LEU_40 nothing to do
+assignRandomCaCoordinates to LEU_41 nothing to do
+assignRandomCaCoordinates to VAL_42 nothing to do
+assignRandomCaCoordinates to PRO_43 nothing to do
+assignRandomCaCoordinates to TYR_44 nothing to do
+assignRandomCaCoordinates to LEU_45 nothing to do
+assignRandomCaCoordinates to VAL_46 nothing to do
+assignRandomCaCoordinates to ASP_47 nothing to do
+assignRandomCaCoordinates to ASP_48 nothing to do
+assignRandomCaCoordinates to TYR_49 nothing to do
+assignRandomCaCoordinates to LYS_50 nothing to do
+assignRandomCaCoordinates to VAL_51 nothing to do
+assignRandomCaCoordinates to LEU_52 nothing to do
+assignRandomCaCoordinates to LEU_53 nothing to do
+assignRandomCaCoordinates to TYR_54 nothing to do
+assignRandomCaCoordinates to ASP_55 nothing to do
+assignRandomCaCoordinates to HIS_56 nothing to do
+assignRandomCaCoordinates to MET_57 nothing to do
+assignRandomCaCoordinates to GLY_58 nothing to do
+assignRandomCaCoordinates to ALA_59 nothing to do
+assignRandomCaCoordinates to GLY_60 nothing to do
+assignRandomCaCoordinates to THR_61 nothing to do
+assignRandomCaCoordinates to THR_62 nothing to do
+assignRandomCaCoordinates to ASN_63 nothing to do
+assignRandomCaCoordinates to PRO_64 nothing to do
+assignRandomCaCoordinates to ASP_65 nothing to do
+assignRandomCaCoordinates to TYR_66 nothing to do
+assignRandomCaCoordinates to PHE_67 nothing to do
+assignRandomCaCoordinates to ASP_68 nothing to do
+assignRandomCaCoordinates to PHE_69 nothing to do
+assignRandomCaCoordinates to ASP_70 nothing to do
+assignRandomCaCoordinates to ARG_71 nothing to do
+assignRandomCaCoordinates to TYR_72 nothing to do
+assignRandomCaCoordinates to SER_73 nothing to do
+assignRandomCaCoordinates to SER_74 nothing to do
+assignRandomCaCoordinates to LEU_75 nothing to do
+assignRandomCaCoordinates to GLU_76 nothing to do
+assignRandomCaCoordinates to GLY_77 nothing to do
+assignRandomCaCoordinates to TYR_78 nothing to do
+assignRandomCaCoordinates to SER_79 nothing to do
+assignRandomCaCoordinates to TYR_80 nothing to do
+assignRandomCaCoordinates to ASP_81 nothing to do
+assignRandomCaCoordinates to LEU_82 nothing to do
+assignRandomCaCoordinates to ILE_83 nothing to do
+assignRandomCaCoordinates to ALA_84 nothing to do
+assignRandomCaCoordinates to ILE_85 nothing to do
+assignRandomCaCoordinates to LEU_86 nothing to do
+assignRandomCaCoordinates to GLU_87 nothing to do
+assignRandomCaCoordinates to GLU_88 nothing to do
+assignRandomCaCoordinates to PHE_89 nothing to do
+assignRandomCaCoordinates to GLN_90 nothing to do
+assignRandomCaCoordinates to VAL_91 nothing to do
+assignRandomCaCoordinates to SER_92 nothing to do
+assignRandomCaCoordinates to LYS_93 nothing to do
+assignRandomCaCoordinates to CYS_94 nothing to do
+assignRandomCaCoordinates to ILE_95 nothing to do
+assignRandomCaCoordinates to TYR_96 nothing to do
+assignRandomCaCoordinates to VAL_97 nothing to do
+assignRandomCaCoordinates to GLY_98 nothing to do
+assignRandomCaCoordinates to HIS_99 nothing to do
+assignRandomCaCoordinates to SER_100 nothing to do
+assignRandomCaCoordinates to MET_101 nothing to do
+assignRandomCaCoordinates to SER_102 nothing to do
+assignRandomCaCoordinates to SER_103 nothing to do
+assignRandomCaCoordinates to MET_104 nothing to do
+assignRandomCaCoordinates to ALA_105 nothing to do
+assignRandomCaCoordinates to ALA_106 nothing to do
+assignRandomCaCoordinates to ALA_107 nothing to do
+assignRandomCaCoordinates to VAL_108 nothing to do
+assignRandomCaCoordinates to ALA_109 nothing to do
+assignRandomCaCoordinates to SER_110 nothing to do
+assignRandomCaCoordinates to ILE_111 nothing to do
+assignRandomCaCoordinates to PHE_112 nothing to do
+assignRandomCaCoordinates to ARG_113 nothing to do
+assignRandomCaCoordinates to PRO_114 nothing to do
+assignRandomCaCoordinates to ASP_115 nothing to do
+assignRandomCaCoordinates to LEU_116 nothing to do
+assignRandomCaCoordinates to PHE_117 nothing to do
+assignRandomCaCoordinates to HIS_118 nothing to do
+assignRandomCaCoordinates to LYS_119 nothing to do
+assignRandomCaCoordinates to LEU_120 nothing to do
+assignRandomCaCoordinates to VAL_121 nothing to do
+assignRandomCaCoordinates to MET_122 nothing to do
+assignRandomCaCoordinates to ILE_123 nothing to do
+assignRandomCaCoordinates to SER_124 nothing to do
+assignRandomCaCoordinates to PRO_125 nothing to do
+assignRandomCaCoordinates to THR_126 nothing to do
+assignRandomCaCoordinates to PRO_127 nothing to do
+assignRandomCaCoordinates to ARG_128 nothing to do
+assignRandomCaCoordinates to LEU_129 nothing to do
+assignRandomCaCoordinates to ILE_130 nothing to do
+assignRandomCaCoordinates to ASN_131 nothing to do
+assignRandomCaCoordinates to THR_132 nothing to do
+assignRandomCaCoordinates to GLU_133 nothing to do
+assignRandomCaCoordinates to GLU_134 nothing to do
+assignRandomCaCoordinates to TYR_135 nothing to do
+assignRandomCaCoordinates to TYR_136 nothing to do
+assignRandomCaCoordinates to GLY_137 nothing to do
+assignRandomCaCoordinates to GLY_138 nothing to do
+assignRandomCaCoordinates to PHE_139 nothing to do
+assignRandomCaCoordinates to GLU_140 nothing to do
+assignRandomCaCoordinates to GLN_141 nothing to do
+assignRandomCaCoordinates to LYS_142 nothing to do
+assignRandomCaCoordinates to VAL_143 nothing to do
+assignRandomCaCoordinates to MET_144 nothing to do
+assignRandomCaCoordinates to ASP_145 nothing to do
+assignRandomCaCoordinates to GLU_146 nothing to do
+assignRandomCaCoordinates to THR_147 nothing to do
+assignRandomCaCoordinates to LEU_148 nothing to do
+assignRandomCaCoordinates to ARG_149 nothing to do
+assignRandomCaCoordinates to SER_150 nothing to do
+assignRandomCaCoordinates to LEU_151 nothing to do
+assignRandomCaCoordinates to ASP_152 nothing to do
+assignRandomCaCoordinates to GLU_153 nothing to do
+assignRandomCaCoordinates to ASN_154 nothing to do
+assignRandomCaCoordinates to PHE_155 nothing to do
+assignRandomCaCoordinates to LYS_156 nothing to do
+assignRandomCaCoordinates to SER_157 nothing to do
+assignRandomCaCoordinates to LEU_158 nothing to do
+assignRandomCaCoordinates to SER_159 nothing to do
+assignRandomCaCoordinates to LEU_160 nothing to do
+assignRandomCaCoordinates to GLY_161 nothing to do
+assignRandomCaCoordinates to THR_162 nothing to do
+assignRandomCaCoordinates to ALA_163 nothing to do
+assignRandomCaCoordinates to PRO_164 nothing to do
+assignRandomCaCoordinates to LEU_165 nothing to do
+assignRandomCaCoordinates to LEU_166 nothing to do
+assignRandomCaCoordinates to LEU_167 nothing to do
+assignRandomCaCoordinates to ALA_168 nothing to do
+assignRandomCaCoordinates to CYS_169 nothing to do
+assignRandomCaCoordinates to ASP_170 nothing to do
+assignRandomCaCoordinates to LEU_171 nothing to do
+assignRandomCaCoordinates to GLU_172 nothing to do
+assignRandomCaCoordinates to SER_173 nothing to do
+assignRandomCaCoordinates to ALA_174 nothing to do
+assignRandomCaCoordinates to ALA_175 nothing to do
+assignRandomCaCoordinates to MET_176 nothing to do
+assignRandomCaCoordinates to GLN_177 nothing to do
+assignRandomCaCoordinates to GLU_178 nothing to do
+assignRandomCaCoordinates to TYR_179 nothing to do
+assignRandomCaCoordinates to CYS_180 nothing to do
+assignRandomCaCoordinates to ARG_181 nothing to do
+assignRandomCaCoordinates to THR_182 nothing to do
+assignRandomCaCoordinates to LEU_183 nothing to do
+assignRandomCaCoordinates to PHE_184 nothing to do
+assignRandomCaCoordinates to ASN_185 nothing to do
+assignRandomCaCoordinates to MET_186 nothing to do
+assignRandomCaCoordinates to ARG_187 nothing to do
+assignRandomCaCoordinates to PRO_188 nothing to do
+assignRandomCaCoordinates to ASP_189 nothing to do
+assignRandomCaCoordinates to ILE_190 nothing to do
+assignRandomCaCoordinates to ALA_191 nothing to do
+assignRandomCaCoordinates to CYS_192 nothing to do
+assignRandomCaCoordinates to CYS_193 nothing to do
+assignRandomCaCoordinates to ILE_194 nothing to do
+assignRandomCaCoordinates to THR_195 nothing to do
+assignRandomCaCoordinates to ARG_196 nothing to do
+assignRandomCaCoordinates to MET_197 nothing to do
+assignRandomCaCoordinates to ILE_198 nothing to do
+assignRandomCaCoordinates to CYS_199 nothing to do
+assignRandomCaCoordinates to GLY_200 nothing to do
+assignRandomCaCoordinates to LEU_201 nothing to do
+assignRandomCaCoordinates to ASP_202 nothing to do
+assignRandomCaCoordinates to LEU_203 nothing to do
+assignRandomCaCoordinates to ARG_204 nothing to do
+assignRandomCaCoordinates to PRO_205 nothing to do
+assignRandomCaCoordinates to TYR_206 nothing to do
+assignRandomCaCoordinates to LEU_207 nothing to do
+assignRandomCaCoordinates to GLY_208 nothing to do
+assignRandomCaCoordinates to HIS_209 nothing to do
+assignRandomCaCoordinates to VAL_210 nothing to do
+assignRandomCaCoordinates to THR_211 nothing to do
+assignRandomCaCoordinates to VAL_212 nothing to do
+assignRandomCaCoordinates to PRO_213 nothing to do
+assignRandomCaCoordinates to CYS_214 nothing to do
+assignRandomCaCoordinates to HIS_215 nothing to do
+assignRandomCaCoordinates to ILE_216 nothing to do
+assignRandomCaCoordinates to ILE_217 nothing to do
+assignRandomCaCoordinates to GLN_218 nothing to do
+assignRandomCaCoordinates to SER_219 nothing to do
+assignRandomCaCoordinates to SER_220 nothing to do
+assignRandomCaCoordinates to ASN_221 nothing to do
+assignRandomCaCoordinates to ASP_222 nothing to do
+assignRandomCaCoordinates to ILE_223 nothing to do
+assignRandomCaCoordinates to MET_224 nothing to do
+assignRandomCaCoordinates to VAL_225 nothing to do
+assignRandomCaCoordinates to PRO_226 nothing to do
+assignRandomCaCoordinates to VAL_227 nothing to do
+assignRandomCaCoordinates to ALA_228 nothing to do
+assignRandomCaCoordinates to VAL_229 nothing to do
+assignRandomCaCoordinates to GLY_230 nothing to do
+assignRandomCaCoordinates to GLU_231 nothing to do
+assignRandomCaCoordinates to TYR_232 nothing to do
+assignRandomCaCoordinates to LEU_233 nothing to do
+assignRandomCaCoordinates to ARG_234 nothing to do
+assignRandomCaCoordinates to LYS_235 nothing to do
+assignRandomCaCoordinates to ASN_236 nothing to do
+assignRandomCaCoordinates to LEU_237 nothing to do
+assignRandomCaCoordinates to GLY_238 nothing to do
+assignRandomCaCoordinates to GLY_239 nothing to do
+assignRandomCaCoordinates to PRO_240 nothing to do
+assignRandomCaCoordinates to SER_241 nothing to do
+assignRandomCaCoordinates to VAL_242 nothing to do
+assignRandomCaCoordinates to VAL_243 nothing to do
+assignRandomCaCoordinates to GLU_244 nothing to do
+assignRandomCaCoordinates to VAL_245 nothing to do
+assignRandomCaCoordinates to MET_246 nothing to do
+assignRandomCaCoordinates to PRO_247 nothing to do
+assignRandomCaCoordinates to THR_248 nothing to do
+assignRandomCaCoordinates to GLU_249 nothing to do
+assignRandomCaCoordinates to GLY_250 nothing to do
+assignRandomCaCoordinates to HIS_251 nothing to do
+assignRandomCaCoordinates to LEU_252 nothing to do
+assignRandomCaCoordinates to PRO_253 nothing to do
+assignRandomCaCoordinates to HIS_254 nothing to do
+assignRandomCaCoordinates to LEU_255 nothing to do
+assignRandomCaCoordinates to SER_256 nothing to do
+assignRandomCaCoordinates to MET_257 nothing to do
+assignRandomCaCoordinates to PRO_258 nothing to do
+assignRandomCaCoordinates to GLU_259 nothing to do
+assignRandomCaCoordinates to VAL_260 nothing to do
+assignRandomCaCoordinates to THR_261 nothing to do
+assignRandomCaCoordinates to ILE_262 nothing to do
+assignRandomCaCoordinates to PRO_263 nothing to do
+assignRandomCaCoordinates to VAL_264 nothing to do
+assignRandomCaCoordinates to VAL_265 nothing to do
+assignRandomCaCoordinates to LEU_266 nothing to do
+assignRandomCaCoordinates to ARG_267 nothing to do
+assignRandomCaCoordinates to HIS_268 nothing to do
+assignRandomCaCoordinates to ILE_269 nothing to do
+assignRandomCaCoordinates to ARG_270 nothing to do
+assignRandomCaCoordinates to GLN_271 nothing to do
+assignRandomCaCoordinates to ASP_272 nothing to do
+assignRandomCaCoordinates to ILE_273 nothing to do
+assignRandomCaCoordinates to THR_274 nothing to do
+assignRandomCaCoordinates to ASP_275 nothing to do
+assignRandomCaCoordinates to HIS_276 nothing to do
+====>  bondEnergy weight 0.10
+---->  bondEnergy weight 0.10
+weight = 0.1
+=-=->  parameters /var/www/cgi-bin/3Drefine/software/3Drefine/parameters
+Loading parameters from /var/www/cgi-bin/3Drefine/software/3Drefine/parameters/meshiPotential/bondEnergyParameters.dat
+====>  angleEnergy weight 2.0
+---->  angleEnergy weight 2.0
+weight = 2.0
+Loading parameters from /var/www/cgi-bin/3Drefine/software/3Drefine/parameters/meshiPotential/angleEnergyParameters.dat
+====>  planeEnergy weight 10.0
+---->  planeEnergy weight 10.0
+weight = 10.0
+Loading parameters from /var/www/cgi-bin/3Drefine/software/3Drefine/parameters/meshiPotential/planeEnergyParameters.dat
+====>  outOfPlaneEnergy weight 100.0
+---->  outOfPlaneEnergy weight 100.0
+weight = 100.0
+Loading parameters from /var/www/cgi-bin/3Drefine/software/3Drefine/parameters/meshiPotential/outOfPlaneEnergyParameters.dat
+====>  ramachandranSidechain weight 10
+---->  ramachandranSidechain weight 10
+weight = 10.0
+====>  relax tolerance 0.1
+====>  relax maxSteps 6000
+====>  relax reportEvery 200
+---->  relax maxSteps 6000
+---->  relax tolerance 0.1
+---->  relax reportEvery 200
+LBFGS starts with 0 coordinates
+
+A kick start has occurred in iteration:0
+
+kickStart CONVERGED
+Secondary structure assignment by dssp...
+
+1	:	GLY	:	COIL
+2	:	PRO	:	COIL
+3	:	LEU	:	COIL
+4	:	GLY	:	COIL
+5	:	SER	:	COIL
+6	:	MET	:	COIL
+7	:	SER	:	COIL
+8	:	SER	:	COIL
+9	:	ILE	:	COIL
+10	:	GLY	:	COIL
+11	:	LEU	:	COIL
+12	:	ALA	:	COIL
+13	:	HIS	:	COIL
+14	:	ASN	:	COIL
+15	:	VAL	:	SHEET
+16	:	THR	:	SHEET
+17	:	ILE	:	SHEET
+18	:	LEU	:	SHEET
+19	:	GLY	:	COIL
+20	:	SER	:	COIL
+21	:	GLY	:	COIL
+22	:	GLU	:	COIL
+23	:	THR	:	COIL
+24	:	THR	:	SHEET
+25	:	VAL	:	SHEET
+26	:	VAL	:	SHEET
+27	:	LEU	:	SHEET
+28	:	GLY	:	COIL
+29	:	HIS	:	COIL
+30	:	GLY	:	COIL
+31	:	TYR	:	COIL
+32	:	GLY	:	COIL
+33	:	THR	:	COIL
+34	:	ASP	:	HELIX
+35	:	GLN	:	HELIX
+36	:	SER	:	HELIX
+37	:	VAL	:	HELIX
+38	:	TRP	:	HELIX
+39	:	LYS	:	COIL
+40	:	LEU	:	COIL
+41	:	LEU	:	COIL
+42	:	VAL	:	HELIX
+43	:	PRO	:	HELIX
+44	:	TYR	:	HELIX
+45	:	LEU	:	HELIX
+46	:	VAL	:	COIL
+47	:	ASP	:	COIL
+48	:	ASP	:	COIL
+49	:	TYR	:	COIL
+50	:	LYS	:	SHEET
+51	:	VAL	:	SHEET
+52	:	LEU	:	SHEET
+53	:	LEU	:	SHEET
+54	:	TYR	:	SHEET
+55	:	ASP	:	COIL
+56	:	HIS	:	COIL
+57	:	MET	:	COIL
+58	:	GLY	:	COIL
+59	:	ALA	:	COIL
+60	:	GLY	:	COIL
+61	:	THR	:	COIL
+62	:	THR	:	COIL
+63	:	ASN	:	COIL
+64	:	PRO	:	COIL
+65	:	ASP	:	COIL
+66	:	TYR	:	COIL
+67	:	PHE	:	COIL
+68	:	ASP	:	COIL
+69	:	PHE	:	COIL
+70	:	ASP	:	COIL
+71	:	ARG	:	COIL
+72	:	TYR	:	COIL
+73	:	SER	:	COIL
+74	:	SER	:	COIL
+75	:	LEU	:	HELIX
+76	:	GLU	:	HELIX
+77	:	GLY	:	HELIX
+78	:	TYR	:	HELIX
+79	:	SER	:	HELIX
+80	:	TYR	:	HELIX
+81	:	ASP	:	HELIX
+82	:	LEU	:	HELIX
+83	:	ILE	:	HELIX
+84	:	ALA	:	HELIX
+85	:	ILE	:	HELIX
+86	:	LEU	:	HELIX
+87	:	GLU	:	HELIX
+88	:	GLU	:	HELIX
+89	:	PHE	:	HELIX
+90	:	GLN	:	COIL
+91	:	VAL	:	COIL
+92	:	SER	:	COIL
+93	:	LYS	:	COIL
+94	:	CYS	:	SHEET
+95	:	ILE	:	SHEET
+96	:	TYR	:	SHEET
+97	:	VAL	:	SHEET
+98	:	GLY	:	SHEET
+99	:	HIS	:	COIL
+100	:	SER	:	COIL
+101	:	MET	:	HELIX
+102	:	SER	:	HELIX
+103	:	SER	:	HELIX
+104	:	MET	:	HELIX
+105	:	ALA	:	HELIX
+106	:	ALA	:	HELIX
+107	:	ALA	:	HELIX
+108	:	VAL	:	HELIX
+109	:	ALA	:	HELIX
+110	:	SER	:	HELIX
+111	:	ILE	:	HELIX
+112	:	PHE	:	HELIX
+113	:	ARG	:	COIL
+114	:	PRO	:	COIL
+115	:	ASP	:	COIL
+116	:	LEU	:	COIL
+117	:	PHE	:	COIL
+118	:	HIS	:	COIL
+119	:	LYS	:	COIL
+120	:	LEU	:	SHEET
+121	:	VAL	:	SHEET
+122	:	MET	:	SHEET
+123	:	ILE	:	SHEET
+124	:	SER	:	COIL
+125	:	PRO	:	COIL
+126	:	THR	:	COIL
+127	:	PRO	:	COIL
+128	:	ARG	:	COIL
+129	:	LEU	:	COIL
+130	:	ILE	:	COIL
+131	:	ASN	:	COIL
+132	:	THR	:	HELIX
+133	:	GLU	:	HELIX
+134	:	GLU	:	HELIX
+135	:	TYR	:	HELIX
+136	:	TYR	:	HELIX
+137	:	GLY	:	COIL
+138	:	GLY	:	COIL
+139	:	PHE	:	COIL
+140	:	GLU	:	HELIX
+141	:	GLN	:	HELIX
+142	:	LYS	:	HELIX
+143	:	VAL	:	HELIX
+144	:	MET	:	HELIX
+145	:	ASP	:	HELIX
+146	:	GLU	:	HELIX
+147	:	THR	:	HELIX
+148	:	LEU	:	HELIX
+149	:	ARG	:	HELIX
+150	:	SER	:	HELIX
+151	:	LEU	:	COIL
+152	:	ASP	:	COIL
+153	:	GLU	:	COIL
+154	:	ASN	:	HELIX
+155	:	PHE	:	HELIX
+156	:	LYS	:	HELIX
+157	:	SER	:	HELIX
+158	:	LEU	:	HELIX
+159	:	SER	:	HELIX
+160	:	LEU	:	HELIX
+161	:	GLY	:	COIL
+162	:	THR	:	COIL
+163	:	ALA	:	HELIX
+164	:	PRO	:	HELIX
+165	:	LEU	:	HELIX
+166	:	LEU	:	HELIX
+167	:	LEU	:	HELIX
+168	:	ALA	:	COIL
+169	:	CYS	:	COIL
+170	:	ASP	:	COIL
+171	:	LEU	:	COIL
+172	:	GLU	:	COIL
+173	:	SER	:	HELIX
+174	:	ALA	:	HELIX
+175	:	ALA	:	HELIX
+176	:	MET	:	HELIX
+177	:	GLN	:	HELIX
+178	:	GLU	:	HELIX
+179	:	TYR	:	HELIX
+180	:	CYS	:	HELIX
+181	:	ARG	:	HELIX
+182	:	THR	:	HELIX
+183	:	LEU	:	HELIX
+184	:	PHE	:	HELIX
+185	:	ASN	:	HELIX
+186	:	MET	:	HELIX
+187	:	ARG	:	COIL
+188	:	PRO	:	HELIX
+189	:	ASP	:	HELIX
+190	:	ILE	:	HELIX
+191	:	ALA	:	HELIX
+192	:	CYS	:	HELIX
+193	:	CYS	:	HELIX
+194	:	ILE	:	HELIX
+195	:	THR	:	HELIX
+196	:	ARG	:	HELIX
+197	:	MET	:	HELIX
+198	:	ILE	:	HELIX
+199	:	CYS	:	HELIX
+200	:	GLY	:	COIL
+201	:	LEU	:	COIL
+202	:	ASP	:	COIL
+203	:	LEU	:	COIL
+204	:	ARG	:	HELIX
+205	:	PRO	:	HELIX
+206	:	TYR	:	HELIX
+207	:	LEU	:	HELIX
+208	:	GLY	:	HELIX
+209	:	HIS	:	HELIX
+210	:	VAL	:	HELIX
+211	:	THR	:	COIL
+212	:	VAL	:	COIL
+213	:	PRO	:	COIL
+214	:	CYS	:	SHEET
+215	:	HIS	:	SHEET
+216	:	ILE	:	SHEET
+217	:	ILE	:	SHEET
+218	:	GLN	:	SHEET
+219	:	SER	:	SHEET
+220	:	SER	:	COIL
+221	:	ASN	:	COIL
+222	:	ASP	:	COIL
+223	:	ILE	:	COIL
+224	:	MET	:	COIL
+225	:	VAL	:	COIL
+226	:	PRO	:	COIL
+227	:	VAL	:	HELIX
+228	:	ALA	:	HELIX
+229	:	VAL	:	HELIX
+230	:	GLY	:	HELIX
+231	:	GLU	:	HELIX
+232	:	TYR	:	HELIX
+233	:	LEU	:	HELIX
+234	:	ARG	:	HELIX
+235	:	LYS	:	HELIX
+236	:	ASN	:	HELIX
+237	:	LEU	:	COIL
+238	:	GLY	:	COIL
+239	:	GLY	:	COIL
+240	:	PRO	:	COIL
+241	:	SER	:	SHEET
+242	:	VAL	:	SHEET
+243	:	VAL	:	SHEET
+244	:	GLU	:	SHEET
+245	:	VAL	:	SHEET
+246	:	MET	:	SHEET
+247	:	PRO	:	COIL
+248	:	THR	:	COIL
+249	:	GLU	:	COIL
+250	:	GLY	:	COIL
+251	:	HIS	:	COIL
+252	:	LEU	:	COIL
+253	:	PRO	:	HELIX
+254	:	HIS	:	HELIX
+255	:	LEU	:	HELIX
+256	:	SER	:	HELIX
+257	:	MET	:	COIL
+258	:	PRO	:	HELIX
+259	:	GLU	:	HELIX
+260	:	VAL	:	HELIX
+261	:	THR	:	HELIX
+262	:	ILE	:	HELIX
+263	:	PRO	:	HELIX
+264	:	VAL	:	HELIX
+265	:	VAL	:	HELIX
+266	:	LEU	:	HELIX
+267	:	ARG	:	HELIX
+268	:	HIS	:	HELIX
+269	:	ILE	:	HELIX
+270	:	ARG	:	HELIX
+271	:	GLN	:	COIL
+272	:	ASP	:	COIL
+273	:	ILE	:	COIL
+274	:	THR	:	COIL
+275	:	ASP	:	COIL
+276	:	HIS	:	COIL
+
+====>  solvateEnergy weight 10.0
+---->  solvateEnergy weight 10.0
+weight = 10.0
+====>  bondEnergy weight 0.10
+---->  bondEnergy weight 0.10
+weight = 0.1
+Loading parameters from /var/www/cgi-bin/3Drefine/software/3Drefine/parameters/meshiPotential/bondEnergyParameters.dat
+====>  angleEnergy weight 2.0
+---->  angleEnergy weight 2.0
+weight = 2.0
+Loading parameters from /var/www/cgi-bin/3Drefine/software/3Drefine/parameters/meshiPotential/angleEnergyParameters.dat
+====>  planeEnergy weight 10.0
+---->  planeEnergy weight 10.0
+weight = 10.0
+Loading parameters from /var/www/cgi-bin/3Drefine/software/3Drefine/parameters/meshiPotential/planeEnergyParameters.dat
+====>  outOfPlaneEnergy weight 100.0
+---->  outOfPlaneEnergy weight 100.0
+weight = 100.0
+Loading parameters from /var/www/cgi-bin/3Drefine/software/3Drefine/parameters/meshiPotential/outOfPlaneEnergyParameters.dat
+====>  ramachandranSidechain weight 10
+---->  ramachandranSidechain weight 10
+weight = 10.0
+====>  compositePropensity weight 10
+---->  compositePropensity weight 10
+weight = 10.0
+====>  atomicPairwisePMFSumma weight 1
+---->  atomicPairwisePMFSumma weight 1
+weight = 1.0
+=-=->  parameters /var/www/cgi-bin/3Drefine/software/3Drefine/parameters
+Reading solvation parameter file: /var/www/cgi-bin/3Drefine/software/3Drefine/parameters/meshiPotential/SolvateCend.dat
+Reading solvation parameter file: /var/www/cgi-bin/3Drefine/software/3Drefine/parameters/meshiPotential/SolvateCp1.dat
+Reading solvation parameter file: /var/www/cgi-bin/3Drefine/software/3Drefine/parameters/meshiPotential/SolvateCp2.dat
+Reading solvation parameter file: /var/www/cgi-bin/3Drefine/software/3Drefine/parameters/meshiPotential/SolvateCvalAtp1.dat
+Reading solvation parameter file: /var/www/cgi-bin/3Drefine/software/3Drefine/parameters/meshiPotential/SolvateCvalAtp2.dat
+Reading solvation parameter file: /var/www/cgi-bin/3Drefine/software/3Drefine/parameters/meshiPotential/SolvateForMinimizeHBend.dat
+Reading solvation parameter file: /var/www/cgi-bin/3Drefine/software/3Drefine/parameters/meshiPotential/SolvateForMinimizeHBp1.dat
+Reading solvation parameter file: /var/www/cgi-bin/3Drefine/software/3Drefine/parameters/meshiPotential/SolvateForMinimizeHBp2.dat
+Reading solvation parameter file: /var/www/cgi-bin/3Drefine/software/3Drefine/parameters/meshiPotential/SolvateForMinimizeHBvalAtp1.dat
+Reading solvation parameter file: /var/www/cgi-bin/3Drefine/software/3Drefine/parameters/meshiPotential/SolvateForMinimizeHBvalAtp2.dat
+Reading solvation parameter file: /var/www/cgi-bin/3Drefine/software/3Drefine/parameters/meshiPotential/SolvateMESHI2Tsai.dat
+Reading solvation parameter file: /var/www/cgi-bin/3Drefine/software/3Drefine/parameters/meshiPotential/SolvatePolarSideChainSplines.dat
+Reading solvation parameter file: /var/www/cgi-bin/3Drefine/software/3Drefine/parameters/meshiPotential/SolvateCarbonSideChainSplines.dat
+Reading solvation parameter file: /var/www/cgi-bin/3Drefine/software/3Drefine/parameters/meshiPotential/SolvatePolarBackboneSplines.dat
+====>  hydrogenBonds weight 0.001
+---->  hydrogenBonds weight 0.001
+weight = 0.0010
+Loading parameters from /var/www/cgi-bin/3Drefine/software/3Drefine/parameters/meshiPotential/LennardJonesParameters.dat
+====>  hydrogenBondsPairs weight 0.1
+---->  hydrogenBondsPairs weight 0.1
+weight = 0.1
+Loading parameters from /var/www/cgi-bin/3Drefine/software/3Drefine/parameters/meshiPotential/HydrogenBondsHelixParameters.dat
+Loading parameters from /var/www/cgi-bin/3Drefine/software/3Drefine/parameters/meshiPotential/HydrogenBondsBetaParameters.dat
+HBP punihs: -10.0 HBP hPunish: -100.0OOPunish = 100*punish
+====>  hydrogenBondsAngles weight 100
+---->  hydrogenBondsAngles weight 100
+weight = 100.0
+====>  hydrogenBondsAngles weight 100
+====>  hydrogenBondsAngles weight 100
+====>  hydrogenBondsAngles weight 100
+---->  hydrogenBondsAngles weight 100
+weight = 100.0
+====>  hydrogenBondsAngles weight 100
+====>  hydrogenBondsAngles weight 100
+====>  inflateEnergy weight 0.1
+====>  inflateEnergy RmsTarget 1
+---->  inflateEnergy weight 0.1
+weight = 0.1
+====>  inflateEnergy weight 0.1
+====>  inflateEnergy RmsTarget 1
+---->  inflateEnergy RmsTarget 1
+====>  tetherEnergy weight 10.0
+---->  tetherEnergy weight 10.0
+weight = 10.0
+====>  minimize maxSteps 200000
+====>  minimize tolerance 0.1
+====>  minimize reportEvery 200
+---->  minimize maxSteps 200000
+---->  minimize tolerance 0.1
+---->  minimize reportEvery 200
+LBFGS starts with 7383 coordinates
+
+A kick start has occurred in iteration:0
+
+#        E total Bond     Angle    Plane    OOPlane  EnResidu torsionP AtomicPa Solvatio Hydrogen HB-Pairs HbondsPu HBondsPu Inflate  Tether   maxf     radius   #NB     #Eeval  
+200      18290.2  381.623  548.173  141.132  0.0664   18794.0 -404.185 -2083.21  1667.95  0.0000  -756.791  1.2955   0.1039   0.0000   0.0074   2.2732 18.4429 27285    222     
+400      18288.5  381.824  548.207  141.195  0.0346   18793.4 -404.254 -2083.73  1667.20  0.0000  -756.785  1.2803   0.1044   0.0000   0.0291   0.8641 18.4428 27285    450     
+kickStart UNCONVERGED
+200      18246.5  387.899  547.405  141.095  0.0452   18761.2 -405.848 -2094.84  1642.27  0.0000  -757.048  1.2044   0.1221   0.0000   23.0291  2.3114 18.4344 27329    808     
+400      18232.9  391.748  547.655  141.265  0.0476   18752.8 -406.767 -2098.02  1622.36  0.0000  -757.142  1.1310   0.1004   0.0000   37.7025  2.4164 18.4318 27339    1027    
+600      18215.6  392.146  548.373  142.038  0.0346   18748.9 -407.494 -2099.64  1599.92  0.0000  -757.132  1.1260   0.0893   0.0000   47.2901  1.6162 18.4314 27350    1247    
+800      18210.3  391.088  548.477  142.091  0.0277   18746.9 -406.047 -2101.02  1594.12  0.0000  -757.099  1.1136   0.0952   0.0000   50.4943  1.0964 18.4315 27354    1463    
+1000     18205.9  391.989  548.601  141.635  0.0301   18744.5 -405.284 -2102.32  1587.60  0.0000  -757.101  1.1366   0.1029   0.0000   54.9855  0.7875 18.4314 27361    1673    
+1200     18201.3  392.585  549.395  141.637  0.0345   18741.7 -405.264 -2105.42  1583.81  0.0000  -757.063  1.1114   0.0971   0.0000   58.6474  1.1863 18.4313 27363    1881    
+1400     18195.8  393.048  549.627  141.900  0.0353   18737.7 -404.881 -2110.89  1582.77  0.0000  -757.073  1.1155   0.0953   0.0000   62.3417  1.0863 18.4313 27364    2089    
+1600     18191.5  393.385  549.859  142.208  0.0356   18731.9 -404.568 -2111.26  1577.66  0.0000  -757.061  1.1281   0.1050   0.0000   68.0609  1.3085 18.4312 27372    2300    
+#        E total Bond     Angle    Plane    OOPlane  EnResidu torsionP AtomicPa Solvatio Hydrogen HB-Pairs HbondsPu HBondsPu Inflate  Tether   maxf     radius   #NB     #Eeval  
+1800     18185.5  394.048  549.651  143.149  0.0321   18729.7 -404.798 -2111.71  1569.70  0.0000  -756.874  1.1223   0.1006   0.0000   71.3494  0.8047 18.4310 27372    2503    
+2000     18183.4  394.338  550.425  142.995  0.0332   18728.0 -404.646 -2113.01  1568.38  0.0000  -756.811  1.1223   0.1026   0.0000   72.4563  0.4937 18.4309 27377    2711    
+
+A kick start has occurred in iteration:0
+
+kickStart CONVERGED
+Generating refined model file...
+done
