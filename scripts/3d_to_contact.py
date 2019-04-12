@@ -45,13 +45,6 @@ def load_pdb_file(file):
 		result = np.column_stack((p,x,y,z))
 	return result
 
-def create_matrix(coords):
-	d = np.ndarray((coords.shape[0],coords.shape[0]))
-	for i in range(coords.shape[0]):
-		x = np.linalg.norm(coords[:i+1,1:].astype(np.float)-coords[i,1:].astype(np.float),axis=1)
-		d[i,:i+1] = x
-	d = d.T
-
 def create_RR(coords):
 	temp = []
 	for i in range(coords.shape[0]):
@@ -84,31 +77,25 @@ def write_RR_file(file,target,RR,sequence):
 ###############################################################################
 def main():
 	seq_easy = load_fasta_sequence('../fasta/T0951_easy/T0951.fasta')
-	seq_medi = load_fasta_sequence('../fasta/T0966_medium/T0966.fasta')
-	seq_hard = load_fasta_sequence('../fasta/T0957s2_hard/T0957s2.fasta')
+	seq_medi = load_fasta_sequence('../fasta/T0866/T0866.fasta')
 	print("SEQUENCE LENGTHS")
 	print("Easy:   ",len(seq_easy))
 	print("Medium: ",len(seq_medi))
-	print("Hard:   ",len(seq_hard))
 
-	pdb_easy = load_pdb_file('../pdb/T0951_easy/5z82.pdb')
-	pdb_medi = load_pdb_file('../pdb/T0966_medium/5w6l.pdb')
-	pdb_hard = load_pdb_file('../pdb/T0957s2_hard/6cp8.pdb')
+	pdb_easy = load_pdb_file('../pdb/native/T0951_easy/5z82.pdb')
+	pdb_medi = load_pdb_file('../pdb/native/T0866/5uw2.pdb')
 	print("PDB BACKBONES (C-beta)")
 	print("PDB Easy:   ",pdb_easy.shape)
 	print("PDB Medium: ",pdb_medi.shape)
-	print("PDB Hard:   ",pdb_hard.shape)
 
 	RR_easy = create_RR(pdb_easy)
 	RR_medi = create_RR(pdb_medi)
-	RR_hard = create_RR(pdb_hard)
 	print("RR FILE FOR <8A AND 6 RESIDUES APART")
 	print("RR Easy:   ",RR_easy.shape)
 	print("RR Medium: ",RR_medi.shape)
-	print("RR Hard:   ",RR_hard.shape)
+
 	write_RR_file('../contact_maps/own/true_T0951_easy.RR','T0951',RR_easy,seq_easy)
-	write_RR_file('../contact_maps/own/true_T0966_medium.RR','T0966',RR_medi,seq_medi)
-	write_RR_file('../contact_maps/own/true_T0957s2_hard.RR','T0957s2',RR_hard,seq_hard)
+	write_RR_file('../contact_maps/own/true_T0866.RR','T0966',RR_medi,seq_medi)
 
 if __name__ == '__main__':
 	main()
